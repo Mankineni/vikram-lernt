@@ -1,0 +1,100 @@
+{
+  "level": 6,
+  "subject": "math",
+  "title": "Statistik und Textaufgaben",
+  "description": "Fortgeschritten — Median, Modus, Spannweite und mehrschrittige Textaufgaben.",
+  "questions": [
+    {
+      "id": "math-l6-q1",
+      "topic": "Median",
+      "type": "number_input",
+      "question": "Finde den Median (mittleren Wert) von: 3, 1, 4, 1, 5, 9, 2",
+      "correctAnswer": "3",
+      "explanation": "Erst sortieren: 1, 1, 2, 3, 4, 5, 9. Bei 7 Werten ist der mittlere der vierte: 3. [English: Sort, then pick the middle value.]",
+      "hints": ["Zuerst die Werte der Größe nach sortieren."]
+    },
+    {
+      "id": "math-l6-q2",
+      "topic": "Modus",
+      "type": "number_input",
+      "question": "Welcher Wert ist der Modalwert (am häufigsten): 2, 4, 4, 5, 6, 4, 7?",
+      "correctAnswer": "4",
+      "explanation": "Der Modus ist der Wert, der am häufigsten vorkommt. 4 erscheint dreimal, alle anderen nur einmal. [English: Mode = most frequent value.]",
+      "hints": ["Zähle, wie oft jeder Wert vorkommt."]
+    },
+    {
+      "id": "math-l6-q3",
+      "topic": "Spannweite",
+      "type": "number_input",
+      "question": "Wie groß ist die Spannweite (Range) von: 2, 7, 5, 11, 3?",
+      "correctAnswer": "9",
+      "explanation": "Spannweite = größter Wert − kleinster Wert. 11 − 2 = 9. [English: Range = max − min.]",
+      "hints": ["Größten und kleinsten Wert suchen."]
+    },
+    {
+      "id": "math-l6-q4",
+      "topic": "Modus",
+      "type": "multiple_choice",
+      "question": "Das Alter von 5 Kindern: 10, 11, 12, 11, 11. Was ist der Modalwert?",
+      "options": ["10", "11", "11,5", "12"],
+      "correctAnswer": "11",
+      "explanation": "11 kommt dreimal vor, 10 und 12 jeweils einmal. Also Modus = 11. [English: 11 appears most often.]",
+      "hints": ["Welche Zahl kommt am häufigsten vor?"]
+    },
+    {
+      "id": "math-l6-q5",
+      "topic": "Anteil in Prozent",
+      "type": "multiple_choice",
+      "question": "In einer Klasse mit 20 Schülern sind 12 Mädchen und 8 Jungen. Welcher Anteil der Klasse sind Jungen?",
+      "options": ["20 %", "40 %", "50 %", "60 %"],
+      "correctAnswer": "40 %",
+      "explanation": "Anteil Jungen = 8/20 = 4/10 = 40 %. [English: 8 out of 20 = 40%.]",
+      "hints": ["Bilde den Bruch und wandle ihn in Prozent um."]
+    },
+    {
+      "id": "math-l6-q6",
+      "topic": "Mittelwert",
+      "type": "number_input",
+      "question": "Was ist der Mittelwert von 5, 5, 5, 5, 5?",
+      "correctAnswer": "5",
+      "explanation": "Sind alle Werte gleich, ist auch der Mittelwert genau dieser Wert. Summe 25 : 5 = 5. [English: All equal → mean equals that value.]",
+      "hints": ["Wenn alle gleich sind, ist der Durchschnitt die Zahl selbst."]
+    },
+    {
+      "id": "math-l6-q7",
+      "topic": "Textaufgabe",
+      "type": "number_input",
+      "question": "Paul fährt 4 Tage lang Fahrrad: 12 km, 8 km, 15 km und 5 km. Wie viele Kilometer sind das durchschnittlich pro Tag?",
+      "correctAnswer": "10",
+      "explanation": "Summe: 12 + 8 + 15 + 5 = 40 km. Teile durch 4 Tage: 40 : 4 = 10 km. [English: Sum ÷ days = average.]",
+      "hints": ["Erst alle Kilometer addieren."]
+    },
+    {
+      "id": "math-l6-q8",
+      "topic": "Textaufgabe",
+      "type": "number_input",
+      "question": "Drei Freunde teilen sich gerecht 45 €. Wie viel bekommt jeder?",
+      "correctAnswer": "15",
+      "explanation": "Gleich teilen: 45 : 3 = 15 €. Jeder bekommt 15 €. [English: 45 ÷ 3 = 15 each.]",
+      "hints": ["Teile den Betrag durch die Anzahl der Personen."]
+    },
+    {
+      "id": "math-l6-q9",
+      "topic": "Median",
+      "type": "number_input",
+      "question": "Finde den Median von 2, 8, 4, 6, 10.",
+      "correctAnswer": "6",
+      "explanation": "Sortiert: 2, 4, 6, 8, 10. Der mittlere Wert ist 6. [English: Sorted, pick the middle number.]",
+      "hints": ["Erst der Größe nach ordnen."]
+    },
+    {
+      "id": "math-l6-q10",
+      "topic": "Textaufgabe",
+      "type": "number_input",
+      "question": "Eine Familie bestellt 3 Pizzen. Jede kostet 9,50 €. Wie viel zahlen sie insgesamt? Gib das Ergebnis in Euro an.",
+      "correctAnswer": "28,50",
+      "explanation": "3 · 9,50 € = 28,50 €. Tipp: 3 · 9 = 27 und 3 · 0,50 = 1,50. Zusammen 28,50 €. [English: 3 × 9.50 = 28.50.]",
+      "hints": ["Rechne 3 · 9 und 3 · 0,50 getrennt."]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "level": 9,
+  "subject": "math",
+  "title": "Mehrschritt-Aufgaben, Teilbarkeit, Zahlenfolgen",
+  "description": "Experte — komplexere Textaufgaben, Teilbarkeitsregeln und Muster erkennen.",
+  "questions": [
+    {
+      "id": "math-l9-q1",
+      "topic": "Teilbarkeit durch 3",
+      "type": "multiple_choice",
+      "question": "Ist 144 durch 3 teilbar?",
+      "options": ["Ja", "Nein"],
+      "correctAnswer": "Ja",
+      "explanation": "Regel: durch 3 teilbar, wenn die Quersumme durch 3 teilbar ist. 1+4+4 = 9. 9 : 3 = 3, also ja. [English: Divisible by 3 iff digit sum is.]",
+      "hints": ["Bilde die Quersumme der Zahl."]
+    },
+    {
+      "id": "math-l9-q2",
+      "topic": "Teilbarkeit durch 5",
+      "type": "multiple_choice",
+      "question": "Welche Regel erkennt zuverlässig, ob eine Zahl durch 5 teilbar ist?",
+      "options": ["Quersumme ist durch 5 teilbar", "Die letzte Ziffer ist 0 oder 5", "Die Zahl ist gerade", "Die Zahl ist größer als 5"],
+      "correctAnswer": "Die letzte Ziffer ist 0 oder 5",
+      "explanation": "Eine Zahl ist genau dann durch 5 teilbar, wenn sie auf 0 oder 5 endet. Beispiele: 20, 35, 100. [English: Divisible by 5 ⇔ ends in 0 or 5.]",
+      "hints": ["Schaue nur auf die letzte Ziffer."]
+    },
+    {
+      "id": "math-l9-q3",
+      "topic": "Zahlenfolge",
+      "type": "number_input",
+      "question": "Wie lautet die nächste Zahl in der Folge: 2, 5, 8, 11, … ?",
+      "correctAnswer": "14",
+      "explanation": "Jede Zahl ist um 3 größer als die vorherige. 11 + 3 = 14. [English: Pattern: +3 each step.]",
+      "hints": ["Bilde die Differenzen zwischen den Zahlen."]
+    },
+    {
+      "id": "math-l9-q4",
+      "topic": "Quadratzahlen",
+      "type": "multiple_choice",
+      "question": "Welche Zahl folgt in der Reihe: 1, 4, 9, 16, … ?",
+      "options": ["20", "25", "32", "36"],
+      "correctAnswer": "25",
+      "explanation": "Das sind Quadratzahlen: 1², 2², 3², 4². Als Nächstes 5² = 25. [English: Square numbers; next is 5²=25.]",
+      "hints": ["Nimm die Wurzeln: 1, 2, 3, 4, …"]
+    },
+    {
+      "id": "math-l9-q5",
+      "topic": "Mehrschritt-Aufgabe",
+      "type": "number_input",
+      "question": "Wie viel ist (18 + 7) · 2 − 10?",
+      "correctAnswer": "40",
+      "explanation": "Reihenfolge: Klammer, Malnehmen, Minus. (18+7) = 25. 25 · 2 = 50. 50 − 10 = 40. [English: Parentheses, then ×, then −.]",
+      "hints": ["Zuerst die Klammer berechnen."]
+    },
+    {
+      "id": "math-l9-q6",
+      "topic": "Teilbarkeit durch 9",
+      "type": "multiple_choice",
+      "question": "Ist 273 durch 9 teilbar?",
+      "options": ["Ja", "Nein"],
+      "correctAnswer": "Nein",
+      "explanation": "Regel: durch 9 teilbar, wenn die Quersumme durch 9 teilbar ist. 2+7+3 = 12. 12 ist nicht durch 9 teilbar, also 273 auch nicht. [English: Digit sum 12 is not a multiple of 9.]",
+      "hints": ["Bilde wieder die Quersumme."]
+    },
+    {
+      "id": "math-l9-q7",
+      "topic": "Fibonacci-Folge",
+      "type": "number_input",
+      "question": "Wie lautet die nächste Zahl: 1, 1, 2, 3, 5, 8, …?",
+      "correctAnswer": "13",
+      "explanation": "Jede Zahl ist die Summe der beiden vorherigen: 5 + 8 = 13. Das ist die Fibonacci-Folge. [English: Each number = sum of the two previous ones.]",
+      "hints": ["Addiere die beiden letzten Zahlen."]
+    },
+    {
+      "id": "math-l9-q8",
+      "topic": "Mehrschritt-Textaufgabe",
+      "type": "multiple_choice",
+      "question": "Paul kauft 3 Hefte für je 1,50 € und 2 Stifte für je 2 €. Wie viel zahlt er insgesamt?",
+      "options": ["6,50 €", "7,50 €", "8,50 €", "9 €"],
+      "correctAnswer": "8,50 €",
+      "explanation": "Hefte: 3 · 1,50 = 4,50 €. Stifte: 2 · 2 = 4 €. Gesamt: 4,50 + 4 = 8,50 €. [English: Compute each group, then add.]",
+      "hints": ["Rechne die Gruppen getrennt aus."]
+    },
+    {
+      "id": "math-l9-q9",
+      "topic": "Kleinstes gemeinsames Vielfaches",
+      "type": "multiple_choice",
+      "question": "Welche ist die kleinste Zahl, die sowohl durch 4 als auch durch 6 teilbar ist?",
+      "options": ["10", "12", "18", "24"],
+      "correctAnswer": "12",
+      "explanation": "Vielfache von 4: 4, 8, 12, 16, … Vielfache von 6: 6, 12, 18, … Die erste gemeinsame Zahl ist 12. [English: LCM(4,6) = 12.]",
+      "hints": ["Schreibe die Vielfachen beider Zahlen auf."]
+    },
+    {
+      "id": "math-l9-q10",
+      "topic": "Zahlenfolge mit wechselnder Differenz",
+      "type": "multiple_choice",
+      "question": "Wie lautet die nächste Zahl: 100, 90, 81, 73, 66, … ?",
+      "options": ["55", "58", "60", "63"],
+      "correctAnswer": "60",
+      "explanation": "Die Differenzen werden immer kleiner: −10, −9, −8, −7. Als Nächstes −6: 66 − 6 = 60. [English: Differences shrink by 1 each step.]",
+      "hints": ["Schau dir die Differenzen zwischen den Zahlen an."]
+    }
+  ]
+}

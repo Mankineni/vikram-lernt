@@ -1,0 +1,106 @@
+{
+  "level": 3,
+  "subject": "math",
+  "title": "Einführung in die Bruchrechnung",
+  "description": "Mittel — Brüche verstehen, vergleichen, kürzen und einfache Anteile berechnen.",
+  "questions": [
+    {
+      "id": "math-l3-q1",
+      "topic": "Brüche vergleichen",
+      "type": "multiple_choice",
+      "question": "Welcher Bruch ist größer: 1/2 oder 1/3?",
+      "options": ["1/2", "1/3", "Beide sind gleich"],
+      "correctAnswer": "1/2",
+      "explanation": "Stell dir eine Pizza vor. Bei 1/2 teilst du sie in 2 Stücke, bei 1/3 in 3 Stücke. Je mehr Stücke, desto kleiner. Also ist 1/2 das größere Stück. [English: Fewer pieces = bigger slice; 1/2 > 1/3.]",
+      "hints": ["Je größer der Nenner, desto kleiner das Stück."]
+    },
+    {
+      "id": "math-l3-q2",
+      "topic": "Gleichwertige Brüche",
+      "type": "multiple_choice",
+      "question": "Welcher Bruch ist gleich 1/2?",
+      "options": ["2/4", "3/9", "4/10", "1/3"],
+      "correctAnswer": "2/4",
+      "explanation": "Ein Bruch bleibt gleich, wenn du Zähler und Nenner mit derselben Zahl multiplizierst. 1/2 = (1·2)/(2·2) = 2/4. [English: Multiply top and bottom by the same number.]",
+      "hints": ["Multipliziere Zähler und Nenner mit 2."]
+    },
+    {
+      "id": "math-l3-q3",
+      "topic": "Brüche kürzen",
+      "type": "multiple_choice",
+      "question": "Welcher dieser Brüche ist bereits vollständig gekürzt?",
+      "options": ["2/4", "4/6", "3/5", "6/8"],
+      "correctAnswer": "3/5",
+      "explanation": "Vollständig gekürzt heißt: Zähler und Nenner haben außer 1 keinen gemeinsamen Teiler. 3 und 5 haben nur die 1 gemeinsam. Die anderen Brüche lassen sich noch kürzen (z. B. 2/4 = 1/2). [English: Fully reduced = gcd of top and bottom is 1.]",
+      "hints": ["Gibt es eine Zahl, die Zähler und Nenner teilt?"]
+    },
+    {
+      "id": "math-l3-q4",
+      "topic": "Anteil berechnen",
+      "type": "number_input",
+      "question": "Wie viel sind 3/4 von 20?",
+      "correctAnswer": "15",
+      "explanation": "Teile 20 in 4 gleich große Teile: 20 : 4 = 5. Nimm davon 3 Stück: 5 · 3 = 15. [English: Divide by the bottom, multiply by the top: 20÷4×3=15.]",
+      "hints": ["Erst durch den Nenner teilen, dann mit dem Zähler multiplizieren."]
+    },
+    {
+      "id": "math-l3-q5",
+      "topic": "Brüche addieren",
+      "type": "multiple_choice",
+      "question": "Wie viel ist 1/2 + 1/2?",
+      "options": ["1", "1/2", "2/4", "2"],
+      "correctAnswer": "1",
+      "explanation": "Eine halbe Pizza plus eine halbe Pizza ergibt eine ganze Pizza. Rechnerisch: 1/2 + 1/2 = 2/2 = 1. [English: Two halves make one whole.]",
+      "hints": ["Zwei Hälften sind ein Ganzes."]
+    },
+    {
+      "id": "math-l3-q6",
+      "topic": "Brüche kürzen",
+      "type": "multiple_choice",
+      "question": "Kürze den Bruch 6/12 vollständig.",
+      "options": ["1/2", "2/4", "3/6", "1/6"],
+      "correctAnswer": "1/2",
+      "explanation": "Suche den größten gemeinsamen Teiler von 6 und 12 — das ist 6. Teile Zähler und Nenner durch 6: 6:6 = 1 und 12:6 = 2. Also 1/2. [English: Divide top and bottom by their greatest common factor, 6.]",
+      "hints": ["Teile Zähler und Nenner durch 6."]
+    },
+    {
+      "id": "math-l3-q7",
+      "topic": "Anteil berechnen",
+      "type": "number_input",
+      "question": "In einer Klasse mit 24 Schülern sind 1/3 Mädchen. Wie viele Mädchen sind das?",
+      "correctAnswer": "8",
+      "explanation": "1/3 von 24 bedeutet: teile 24 in 3 gleiche Teile. 24 : 3 = 8. Also sind es 8 Mädchen. [English: 1/3 of 24 = 24 ÷ 3 = 8.]",
+      "hints": ["Teile 24 durch 3."]
+    },
+    {
+      "id": "math-l3-q8",
+      "topic": "Bruch als Dezimalzahl",
+      "type": "multiple_choice",
+      "question": "Welcher Bruch entspricht der Dezimalzahl 0,5?",
+      "options": ["1/2", "1/5", "5/1", "1/10"],
+      "correctAnswer": "1/2",
+      "explanation": "0,5 bedeutet '5 Zehntel', also 5/10. Gekürzt mit 5 ergibt das 1/2. [English: 0.5 = 5/10 = 1/2 when reduced.]",
+      "hints": ["0,5 ist genau die Hälfte."]
+    },
+    {
+      "id": "math-l3-q9",
+      "topic": "Bruch beschreiben",
+      "type": "multiple_choice",
+      "question": "Eine Pizza ist in 8 gleiche Stücke geschnitten. Paul isst 3 Stücke. Welcher Bruch beschreibt, was er gegessen hat?",
+      "options": ["3/5", "3/8", "5/8", "8/3"],
+      "correctAnswer": "3/8",
+      "explanation": "Der Bruch ist gegessene Stücke durch Gesamtstücke: 3/8. Paul hat 3 von 8 Pizzastücken gegessen. [English: Parts eaten ÷ total parts = 3/8.]",
+      "hints": ["Gegessene Stücke / alle Stücke."]
+    },
+    {
+      "id": "math-l3-q10",
+      "topic": "Brüche addieren",
+      "type": "multiple_choice",
+      "question": "Wie viel ist 2/5 + 1/5?",
+      "options": ["3/5", "3/10", "2/5", "3/25"],
+      "correctAnswer": "3/5",
+      "explanation": "Bei gleichem Nenner addierst du nur die Zähler, der Nenner bleibt gleich: 2 + 1 = 3. Also 3/5. [English: Same denominator: add the tops, keep the bottom.]",
+      "hints": ["Gleicher Nenner — addiere nur die Zähler."]
+    }
+  ]
+}

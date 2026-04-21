@@ -1,0 +1,108 @@
+{
+  "level": 6,
+  "subject": "german",
+  "title": "Rechtschreibung — dass/das und s/ss/ß",
+  "description": "Fortgeschritten — die wichtigsten Rechtschreibregeln sicher anwenden.",
+  "questions": [
+    {
+      "id": "german-l6-q1",
+      "topic": "dass oder das",
+      "type": "multiple_choice",
+      "question": "Welches Wort gehört in die Lücke? — 'Ich weiß, ___ du kommst.'",
+      "options": ["das", "dass", "daß", "beide möglich"],
+      "correctAnswer": "dass",
+      "explanation": "'dass' ist eine Konjunktion, die einen Nebensatz einleitet. Probe: Man kann es nicht durch 'welches' oder 'dieses' ersetzen. [English: Conjunction 'dass' introduces subordinate clauses.]",
+      "hints": ["Kannst du 'welches' statt des Wortes einsetzen?"]
+    },
+    {
+      "id": "german-l6-q2",
+      "topic": "das oder dass",
+      "type": "multiple_choice",
+      "question": "Welches Wort gehört in die Lücke? — '___ Auto ist rot.'",
+      "options": ["Das", "Dass"],
+      "correctAnswer": "Das",
+      "explanation": "Hier ist 'Das' ein Artikel. Probe: 'Dieses Auto ist rot' funktioniert → also 'Das'. [English: Article — replaceable with 'dieses'.]",
+      "hints": ["Kannst du 'dieses' einsetzen?"]
+    },
+    {
+      "id": "german-l6-q3",
+      "topic": "s/ss/ß nach langem Vokal",
+      "type": "multiple_choice",
+      "question": "Welche Schreibweise ist richtig? — 'der gro___e Hund'",
+      "options": ["s", "ss", "ß"],
+      "correctAnswer": "ß",
+      "explanation": "Nach langem Vokal oder Doppellaut schreibt man 'ß'. In 'groß' ist das 'o' lang → großer. [English: Long vowel → ß.]",
+      "hints": ["Ist das 'o' in 'groß' lang oder kurz?"]
+    },
+    {
+      "id": "german-l6-q4",
+      "topic": "dass im Nebensatz",
+      "type": "multiple_choice",
+      "question": "Welches Wort gehört in die Lücke? — 'Ich glaube, ___ er fleißig lernt.'",
+      "options": ["das", "dass"],
+      "correctAnswer": "dass",
+      "explanation": "'dass' ist hier die Konjunktion nach 'glauben'. Probe: 'welches er fleißig lernt' geht nicht → 'dass'. [English: Subordinating conjunction = dass.]",
+      "hints": ["Leitet ein Nebensatz ein?"]
+    },
+    {
+      "id": "german-l6-q5",
+      "topic": "ss nach kurzem Vokal",
+      "type": "multiple_choice",
+      "question": "Welche Schreibweise ist richtig? — 'der Flu___'",
+      "options": ["s", "ss", "ß"],
+      "correctAnswer": "ss",
+      "explanation": "Nach kurzem Vokal schreibt man 'ss'. In 'Fluss' ist das 'u' kurz → Fluss. [English: Short vowel → ss.]",
+      "hints": ["Ist das 'u' in 'Fluss' kurz oder lang?"]
+    },
+    {
+      "id": "german-l6-q6",
+      "topic": "ß im Wort",
+      "type": "multiple_choice",
+      "question": "Welche Schreibweise ist richtig? — 'die Stra___e'",
+      "options": ["s", "ss", "ß"],
+      "correctAnswer": "ß",
+      "explanation": "In 'Straße' ist das 'a' lang → 'ß'. [English: Long vowel → ß.]",
+      "hints": ["Lang gesprochen = ß."]
+    },
+    {
+      "id": "german-l6-q7",
+      "topic": "das und das",
+      "type": "multiple_choice",
+      "question": "Welche Kombination ist richtig? — '___ Mädchen, ___ dort steht, heißt Lena.'",
+      "options": ["das / das", "das / dass", "dass / das", "dass / dass"],
+      "correctAnswer": "das / das",
+      "explanation": "Beide sind 'das'. Das erste ist ein Artikel ('dieses Mädchen'), das zweite ein Relativpronomen ('welches dort steht'). Beide kann man durch 'welches' ersetzen. [English: Both are 'das' — article and relative pronoun.]",
+      "hints": ["Beide lassen sich durch 'welches' ersetzen."]
+    },
+    {
+      "id": "german-l6-q8",
+      "topic": "müssen richtig schreiben",
+      "type": "multiple_choice",
+      "question": "Welches Wort ist richtig geschrieben?",
+      "options": ["müssen", "müßen", "mussen", "müszen"],
+      "correctAnswer": "müssen",
+      "explanation": "Nach kurzem Vokal 'ü' schreibt man 'ss': 'müssen'. [English: Short vowel ü → ss.]",
+      "hints": ["Kurzer Vokal → ss."]
+    },
+    {
+      "id": "german-l6-q9",
+      "topic": "Fuß mit ß",
+      "type": "multiple_choice",
+      "question": "Welche Schreibweise ist korrekt für den Körperteil?",
+      "options": ["Fus", "Fuss", "Fuß", "Fusz"],
+      "correctAnswer": "Fuß",
+      "explanation": "'Fuß' hat einen langen 'u'-Laut → 'ß'. [English: Long u → ß.]",
+      "hints": ["Langes u."]
+    },
+    {
+      "id": "german-l6-q10",
+      "topic": "dass nach Verb",
+      "type": "multiple_choice",
+      "question": "Welches Wort gehört in die Lücke? — 'Er sagt, ___ er heute kommt.'",
+      "options": ["das", "dass"],
+      "correctAnswer": "dass",
+      "explanation": "Konjunktion nach einem Verb des Sagens: 'dass'. Probe: 'welches' passt nicht → 'dass'. [English: Conjunction after 'sagen' = dass.]",
+      "hints": ["Nicht durch 'welches' ersetzbar."]
+    }
+  ]
+}

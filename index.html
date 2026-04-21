@@ -11,17 +11,73 @@
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <header id="app-header">
-    <h1>Vikram Lernt</h1>
+  <a href="#main" class="skip-link">Zum Hauptinhalt springen</a>
+
+  <!-- CSS-only drawer toggle (checkbox hack; no JS yet) -->
+  <input type="checkbox" id="drawer-toggle" class="drawer-toggle" aria-hidden="true" />
+
+  <header class="topbar" role="banner">
+    <label for="drawer-toggle" class="icon-btn icon-btn--menu" aria-label="Menü öffnen" tabindex="0">
+      <span class="hamburger" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </span>
+    </label>
+    <h1 class="topbar__title">Vikram Lernt</h1>
+    <div class="topbar__streak" aria-label="Lernserie: 0 Tage">
+      <span aria-hidden="true">🔥</span>
+      <span class="topbar__streak-count">0</span>
+    </div>
   </header>
 
-  <main id="app-main">
-    <!-- Views rendered here -->
+  <aside class="drawer" role="navigation" aria-label="Hauptmenü">
+    <div class="drawer__header">
+      <span class="drawer__title">Menü</span>
+      <label for="drawer-toggle" class="icon-btn" aria-label="Menü schließen" tabindex="0">
+        <span aria-hidden="true">✕</span>
+      </label>
+    </div>
+    <ul class="drawer__nav">
+      <li>
+        <a class="drawer__link" href="#history">
+          <span class="drawer__icon" aria-hidden="true">🕘</span>
+          <span>Verlauf <span class="drawer__link-en">History</span></span>
+        </a>
+      </li>
+      <li>
+        <a class="drawer__link" href="#zeugnis">
+          <span class="drawer__icon" aria-hidden="true">📜</span>
+          <span>Zeugnis <span class="drawer__link-en">Report</span></span>
+        </a>
+      </li>
+      <li>
+        <a class="drawer__link" href="#settings">
+          <span class="drawer__icon" aria-hidden="true">⚙️</span>
+          <span>Einstellungen <span class="drawer__link-en">Settings</span></span>
+        </a>
+      </li>
+      <li>
+        <a class="drawer__link" href="#about">
+          <span class="drawer__icon" aria-hidden="true">ℹ️</span>
+          <span>Über <span class="drawer__link-en">About</span></span>
+        </a>
+      </li>
+    </ul>
+  </aside>
+  <label for="drawer-toggle" class="drawer-overlay" aria-hidden="true"></label>
+
+  <main id="main" class="main" role="main" aria-live="polite">
+    <p class="main__loading">Lädt …</p>
   </main>
 
-  <nav id="app-nav">
-    <button data-tab="math">📐 Mathe</button>
-    <button data-tab="german">📖 Deutsch</button>
+  <nav class="bottomnav" role="navigation" aria-label="Fachauswahl">
+    <button class="bottomnav__tab bottomnav__tab--math" type="button" aria-current="page">
+      <span class="bottomnav__icon" aria-hidden="true">📐</span>
+      <span class="bottomnav__label">Mathe</span>
+    </button>
+    <button class="bottomnav__tab bottomnav__tab--german" type="button">
+      <span class="bottomnav__icon" aria-hidden="true">📖</span>
+      <span class="bottomnav__label">Deutsch</span>
+    </button>
   </nav>
 
   <script src="js/storage.js"></script>
@@ -33,7 +89,8 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('service-worker.js');
+        navigator.serviceWorker.register('service-worker.js', { scope: './' })
+          .catch((err) => console.warn('[SW] Registrierung fehlgeschlagen:', err));
       });
     }
   </script>

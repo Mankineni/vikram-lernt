@@ -1,0 +1,102 @@
+{
+  "level": 10,
+  "subject": "math",
+  "title": "Vorschau Klasse 7 — Gleichungen und erweiterte Geometrie",
+  "description": "Experte — einfache lineare Gleichungen lösen und fortgeschrittene Geometrie.",
+  "questions": [
+    {
+      "id": "math-l10-q1",
+      "topic": "Gleichung lösen",
+      "type": "number_input",
+      "question": "Löse die Gleichung: x + 7 = 15",
+      "correctAnswer": "8",
+      "explanation": "Ziehe auf beiden Seiten 7 ab: x = 15 − 7 = 8. Probe: 8 + 7 = 15. [English: Subtract 7 from both sides.]",
+      "hints": ["Was muss mit dem +7 passieren?"]
+    },
+    {
+      "id": "math-l10-q2",
+      "topic": "Gleichung lösen",
+      "type": "number_input",
+      "question": "Löse die Gleichung: 3x = 24",
+      "correctAnswer": "8",
+      "explanation": "Teile beide Seiten durch 3: x = 24 : 3 = 8. Probe: 3 · 8 = 24. [English: Divide both sides by 3.]",
+      "hints": ["Division ist die Umkehrung von Multiplikation."]
+    },
+    {
+      "id": "math-l10-q3",
+      "topic": "Mehrschritt-Gleichung",
+      "type": "number_input",
+      "question": "Löse die Gleichung: 2x + 5 = 17",
+      "correctAnswer": "6",
+      "explanation": "Erst 5 abziehen: 2x = 12. Dann durch 2 teilen: x = 6. Probe: 2·6 + 5 = 17. [English: Undo operations in reverse order.]",
+      "hints": ["Erst die Zahl neben dem x, dann den Faktor."]
+    },
+    {
+      "id": "math-l10-q4",
+      "topic": "Gleichung lösen",
+      "type": "multiple_choice",
+      "question": "Welche Zahl x löst die Gleichung x − 9 = 14?",
+      "options": ["5", "−5", "23", "125"],
+      "correctAnswer": "23",
+      "explanation": "Addiere 9 auf beiden Seiten: x = 14 + 9 = 23. Probe: 23 − 9 = 14. [English: Add 9 both sides.]",
+      "hints": ["Was muss mit der −9 passieren?"]
+    },
+    {
+      "id": "math-l10-q5",
+      "topic": "Kreisumfang",
+      "type": "multiple_choice",
+      "question": "Ein Kreis hat den Radius 5 cm. Wie groß ist sein Umfang (π ≈ 3,14)?",
+      "options": ["15,7 cm", "25 cm", "31,4 cm", "78,5 cm"],
+      "correctAnswer": "31,4 cm",
+      "explanation": "Kreisumfang: U = 2 · π · r = 2 · 3,14 · 5 = 31,4 cm. [English: Circumference = 2πr.]",
+      "hints": ["Die Formel lautet U = 2·π·r."]
+    },
+    {
+      "id": "math-l10-q6",
+      "topic": "Kreisfläche",
+      "type": "multiple_choice",
+      "question": "Eine Kreisfläche mit Radius 4 cm (π ≈ 3,14) ist ungefähr:",
+      "options": ["12,56 cm²", "16 cm²", "25,12 cm²", "50,24 cm²"],
+      "correctAnswer": "50,24 cm²",
+      "explanation": "Kreisfläche: A = π · r² = 3,14 · 4² = 3,14 · 16 = 50,24 cm². [English: Area = π × r².]",
+      "hints": ["Erst r zum Quadrat, dann mal π."]
+    },
+    {
+      "id": "math-l10-q7",
+      "topic": "Gleichung mit Bruch",
+      "type": "number_input",
+      "question": "Löse die Gleichung: x : 4 = 7",
+      "correctAnswer": "28",
+      "explanation": "Multipliziere beide Seiten mit 4: x = 7 · 4 = 28. Probe: 28 : 4 = 7. [English: Multiply both sides by 4.]",
+      "hints": ["Umgekehrt: mal 4 auf beiden Seiten."]
+    },
+    {
+      "id": "math-l10-q8",
+      "topic": "Geometrie Würfel",
+      "type": "multiple_choice",
+      "question": "Wie viele Eckpunkte hat ein Würfel?",
+      "options": ["4", "6", "8", "12"],
+      "correctAnswer": "8",
+      "explanation": "Ein Würfel hat 8 Ecken, 12 Kanten und 6 Flächen. [English: A cube has 8 vertices.]",
+      "hints": ["Stelle dir einen Würfel vor und zähle die Ecken."]
+    },
+    {
+      "id": "math-l10-q9",
+      "topic": "Textaufgabe mit Gleichung",
+      "type": "number_input",
+      "question": "5 gleich schwere Kisten wiegen zusammen 35 kg. Wie viel wiegt eine Kiste?",
+      "correctAnswer": "7",
+      "explanation": "Gleichung: 5x = 35. Also x = 35 : 5 = 7 kg pro Kiste. [English: Divide total by count.]",
+      "hints": ["Stelle die Gleichung 5x = 35 auf."]
+    },
+    {
+      "id": "math-l10-q10",
+      "topic": "Gleichung mit Variablen auf beiden Seiten",
+      "type": "number_input",
+      "question": "Löse die Gleichung: 4x − 3 = 2x + 5",
+      "correctAnswer": "4",
+      "explanation": "Alle x-Terme auf eine Seite, alle Zahlen auf die andere: 4x − 2x = 5 + 3 → 2x = 8 → x = 4. Probe: 4·4 − 3 = 13 und 2·4 + 5 = 13. [English: Collect x on one side, constants on the other.]",
+      "hints": ["Bringe die x-Terme zusammen und die Zahlen separat."]
+    }
+  ]
+}

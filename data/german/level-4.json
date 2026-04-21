@@ -1,0 +1,119 @@
+{
+  "level": 4,
+  "subject": "german",
+  "title": "Perfekt und Plusquamperfekt",
+  "description": "Mittel — die zusammengesetzten Vergangenheitszeiten richtig bilden.",
+  "questions": [
+    {
+      "id": "german-l4-q1",
+      "topic": "Hilfsverb Perfekt",
+      "type": "multiple_choice",
+      "question": "Mit welchem Hilfsverb bildet man das Perfekt von 'gehen'?",
+      "options": ["haben", "sein", "werden", "wollen"],
+      "correctAnswer": "sein",
+      "explanation": "Verben der Bewegung oder Zustandsveränderung bilden das Perfekt mit 'sein'. Beispiel: Ich bin gegangen. [English: Motion verbs → sein + past participle.]",
+      "hints": ["Bewegungsverben nehmen ein anderes Hilfsverb."]
+    },
+    {
+      "id": "german-l4-q2",
+      "topic": "Partizip II lesen",
+      "type": "text_input",
+      "question": "Ergänze das Partizip II: 'Ich habe das Buch ___' (lesen)",
+      "correctAnswer": "gelesen",
+      "explanation": "Perfekt = haben/sein + Partizip II. 'lesen' ist unregelmäßig: gelesen. [English: lesen → gelesen.]",
+      "hints": ["Das Verb 'lesen' ist unregelmäßig."]
+    },
+    {
+      "id": "german-l4-q3",
+      "topic": "Partizip II regelmäßig",
+      "type": "text_input",
+      "question": "Wie lautet das Partizip II von 'spielen'?",
+      "correctAnswer": "gespielt",
+      "explanation": "Regelmäßig: ge- + Stamm + -t. spielen → gespielt. [English: Regular: ge- + stem + -t.]",
+      "hints": ["ge- am Anfang, -t am Ende."]
+    },
+    {
+      "id": "german-l4-q4",
+      "topic": "Perfekt erkennen",
+      "type": "multiple_choice",
+      "question": "Welcher Satz steht im Perfekt?",
+      "options": [
+        "Ich gehe zur Schule.",
+        "Ich ging zur Schule.",
+        "Ich bin zur Schule gegangen.",
+        "Ich war zur Schule gegangen."
+      ],
+      "correctAnswer": "Ich bin zur Schule gegangen.",
+      "explanation": "Perfekt = Hilfsverb im Präsens (bin/habe) + Partizip II. Satz 4 ist Plusquamperfekt (war + Partizip II). [English: Perfect uses the present form of the auxiliary.]",
+      "hints": ["Perfekt: Hilfsverb im Präsens + Partizip II."]
+    },
+    {
+      "id": "german-l4-q5",
+      "topic": "Plusquamperfekt erkennen",
+      "type": "multiple_choice",
+      "question": "Welcher Satz steht im Plusquamperfekt?",
+      "options": [
+        "Ich habe gegessen.",
+        "Ich aß.",
+        "Ich hatte gegessen.",
+        "Ich esse."
+      ],
+      "correctAnswer": "Ich hatte gegessen.",
+      "explanation": "Plusquamperfekt = Hilfsverb im Präteritum (hatte/war) + Partizip II. [English: Past perfect = past form of auxiliary + past participle.]",
+      "hints": ["Plusquamperfekt: Hilfsverb im Präteritum."]
+    },
+    {
+      "id": "german-l4-q6",
+      "topic": "Partizip II schlafen",
+      "type": "text_input",
+      "question": "Ergänze das Partizip II: 'Sie hat lange ___.' (schlafen)",
+      "correctAnswer": "geschlafen",
+      "explanation": "Unregelmäßig: schlafen → geschlafen. Hilfsverb 'haben' + Partizip II. [English: Irregular: schlafen → geschlafen.]",
+      "hints": ["schlafen ist unregelmäßig."]
+    },
+    {
+      "id": "german-l4-q7",
+      "topic": "Hilfsverb Bewegung",
+      "type": "multiple_choice",
+      "question": "Welches Hilfsverb gehört zum Perfekt von 'fahren'?",
+      "options": ["haben", "sein", "beides möglich", "weder noch"],
+      "correctAnswer": "sein",
+      "explanation": "'fahren' ist ein Bewegungsverb. Perfekt: 'Ich bin gefahren'. [English: Motion verb → sein.]",
+      "hints": ["Bewegung → sein."]
+    },
+    {
+      "id": "german-l4-q8",
+      "topic": "Satz ins Perfekt setzen",
+      "type": "multiple_choice",
+      "question": "Wie lautet 'Ich spiele Fußball.' im Perfekt?",
+      "options": [
+        "Ich spielte Fußball.",
+        "Ich habe Fußball gespielt.",
+        "Ich bin Fußball gespielt.",
+        "Ich hatte Fußball gespielt."
+      ],
+      "correctAnswer": "Ich habe Fußball gespielt.",
+      "explanation": "Perfekt mit 'haben' + Partizip II: 'habe gespielt'. [English: haben + gespielt.]",
+      "hints": ["Nicht-Bewegungsverben bilden Perfekt mit 'haben'."]
+    },
+    {
+      "id": "german-l4-q9",
+      "topic": "Partizip II kommen",
+      "type": "text_input",
+      "question": "Wie lautet das Partizip II von 'kommen'?",
+      "correctAnswer": "gekommen",
+      "explanation": "Unregelmäßig: kommen → gekommen. Hilfsverb 'sein'. [English: Irregular: kommen → gekommen.]",
+      "hints": ["kommen ist unregelmäßig (starkes Verb)."]
+    },
+    {
+      "id": "german-l4-q10",
+      "topic": "Zeitformen erkennen",
+      "type": "multiple_choice",
+      "question": "Welche Zeitform zeigt etwas, das VOR einer anderen Vergangenheit passiert ist?",
+      "options": ["Präsens", "Präteritum", "Perfekt", "Plusquamperfekt"],
+      "correctAnswer": "Plusquamperfekt",
+      "explanation": "Plusquamperfekt (Vorvergangenheit) beschreibt Ereignisse, die vor einer anderen Vergangenheit stattfanden. [English: Past perfect = before past.]",
+      "hints": ["'Vorvergangenheit' ist ein Hinweis."]
+    }
+  ]
+}

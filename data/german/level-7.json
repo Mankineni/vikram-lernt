@@ -1,0 +1,133 @@
+{
+  "level": 7,
+  "subject": "german",
+  "title": "Zeichensetzung und direkte Rede",
+  "description": "Schwer — Kommaregeln und Regeln für die direkte Rede.",
+  "questions": [
+    {
+      "id": "german-l7-q1",
+      "topic": "Satzzeichen Fragesatz",
+      "type": "multiple_choice",
+      "question": "Welches Satzzeichen steht am Ende eines Fragesatzes?",
+      "options": [".", "!", "?", ","],
+      "correctAnswer": "?",
+      "explanation": "Fragesätze enden mit einem Fragezeichen. [English: Question mark ends questions.]",
+      "hints": ["Eine Frage wird markiert …"]
+    },
+    {
+      "id": "german-l7-q2",
+      "topic": "Komma vor Nebensatz",
+      "type": "multiple_choice",
+      "question": "Welches Satzzeichen fehlt? — 'Ich gehe ins Kino___ weil ich den Film sehen will.'",
+      "options": [".", ",", ";", "!"],
+      "correctAnswer": ",",
+      "explanation": "Vor einem Nebensatz mit 'weil' steht immer ein Komma. [English: Comma before 'weil'-clause.]",
+      "hints": ["Vor 'weil' steht immer ein Zeichen."]
+    },
+    {
+      "id": "german-l7-q3",
+      "topic": "Direkte Rede einleiten",
+      "type": "multiple_choice",
+      "question": "Wie leitet man direkte Rede im Deutschen schriftlich ein?",
+      "options": [
+        "mit Komma und Gedankenstrich",
+        "mit Doppelpunkt und Anführungszeichen",
+        "nur mit Anführungszeichen",
+        "mit einem Fragezeichen"
+      ],
+      "correctAnswer": "mit Doppelpunkt und Anführungszeichen",
+      "explanation": "Typische Form: Redebegleitsatz + Doppelpunkt + Anführungszeichen. Beispiel: Paul sagt: „Ich komme gleich.\" [English: Colon + quotation marks.]",
+      "hints": ["Zwei Satzzeichen zusammen."]
+    },
+    {
+      "id": "german-l7-q4",
+      "topic": "Satzzeichen Ausrufesatz",
+      "type": "multiple_choice",
+      "question": "Welches Satzzeichen steht am Ende eines Ausrufesatzes?",
+      "options": [".", "!", "?", ","],
+      "correctAnswer": "!",
+      "explanation": "Befehle und starke Gefühle werden mit Ausrufezeichen markiert. [English: Exclamation mark for commands and strong feelings.]",
+      "hints": ["Kräftig gesagt …"]
+    },
+    {
+      "id": "german-l7-q5",
+      "topic": "Komma bei Aufzählung",
+      "type": "multiple_choice",
+      "question": "Welcher Satz ist richtig mit Kommas?",
+      "options": [
+        "Ich kaufe Äpfel, Birnen und Bananen.",
+        "Ich kaufe Äpfel Birnen, und Bananen.",
+        "Ich, kaufe Äpfel Birnen und Bananen.",
+        "Ich kaufe, Äpfel, Birnen und Bananen."
+      ],
+      "correctAnswer": "Ich kaufe Äpfel, Birnen und Bananen.",
+      "explanation": "Bei Aufzählungen stehen Kommas zwischen den Elementen, aber NICHT vor 'und'. [English: Commas separate list items, none before final 'und'.]",
+      "hints": ["Vor 'und' in einer Aufzählung kein Komma."]
+    },
+    {
+      "id": "german-l7-q6",
+      "topic": "Direkte Rede richtig schreiben",
+      "type": "multiple_choice",
+      "question": "Welcher Satz verwendet die direkte Rede richtig?",
+      "options": [
+        "Anna sagt \"Ich komme heute\".",
+        "Anna sagt: \"Ich komme heute.\"",
+        "Anna sagt, \"Ich komme heute.\"",
+        "Anna sagt: Ich komme heute."
+      ],
+      "correctAnswer": "Anna sagt: \"Ich komme heute.\"",
+      "explanation": "Einleitung mit Doppelpunkt, dann Anführungszeichen. Der Schlusspunkt steht innerhalb der Anführungszeichen. [English: Colon, then quotation marks, then punctuation inside.]",
+      "hints": ["Doppelpunkt → Anführungszeichen → Satzzeichen innen."]
+    },
+    {
+      "id": "german-l7-q7",
+      "topic": "Komma vor damit",
+      "type": "multiple_choice",
+      "question": "Wo steht das Komma richtig? — 'Er lernt viel damit er die Prüfung besteht.'",
+      "options": [
+        "Er lernt viel damit, er die Prüfung besteht.",
+        "Er lernt, viel damit er die Prüfung besteht.",
+        "Er lernt viel, damit er die Prüfung besteht.",
+        "Er lernt viel damit er, die Prüfung besteht."
+      ],
+      "correctAnswer": "Er lernt viel, damit er die Prüfung besteht.",
+      "explanation": "Vor der Konjunktion 'damit' steht ein Komma, weil sie einen Nebensatz einleitet. [English: Comma before 'damit'-clause.]",
+      "hints": ["Vor 'damit' steht ein Komma."]
+    },
+    {
+      "id": "german-l7-q8",
+      "topic": "Ausrufezeichen bei Befehl",
+      "type": "multiple_choice",
+      "question": "Welches Satzzeichen passt am besten? — 'Pass auf___'",
+      "options": [".", "!", "?", ","],
+      "correctAnswer": "!",
+      "explanation": "'Pass auf' ist ein Aufruf / Befehl → Ausrufezeichen. [English: Command → exclamation mark.]",
+      "hints": ["Es ist ein Befehl."]
+    },
+    {
+      "id": "german-l7-q9",
+      "topic": "Komma vor weil",
+      "type": "multiple_choice",
+      "question": "Vor welchem dieser Wörter steht im Satz IMMER ein Komma?",
+      "options": ["und", "oder", "weil", "auch"],
+      "correctAnswer": "weil",
+      "explanation": "'weil' leitet einen Nebensatz ein — davor steht immer ein Komma. Vor 'und'/'oder'/'auch' steht meist kein Komma. [English: 'weil' always needs a preceding comma.]",
+      "hints": ["'weil' leitet einen Nebensatz ein."]
+    },
+    {
+      "id": "german-l7-q10",
+      "topic": "Fragesatz in direkter Rede",
+      "type": "multiple_choice",
+      "question": "Welcher Fragesatz in direkter Rede ist richtig geschrieben?",
+      "options": [
+        "Er fragt: \"Wann kommst du.\"",
+        "Er fragt: \"Wann kommst du!\"",
+        "Er fragt: \"Wann kommst du?\"",
+        "Er fragt, wann kommst du?"
+      ],
+      "correctAnswer": "Er fragt: \"Wann kommst du?\"",
+      "explanation": "Der Fragesatz in der direkten Rede endet mit einem Fragezeichen INNERHALB der Anführungszeichen. [English: Question mark inside quotation marks.]",
+      "hints": ["Das Fragezeichen gehört innerhalb der Anführungszeichen."]
+    }
+  ]
+}

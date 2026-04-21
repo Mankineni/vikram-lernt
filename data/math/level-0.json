@@ -1,0 +1,102 @@
+{
+  "level": 0,
+  "subject": "math",
+  "title": "Addition und Subtraktion bis 100",
+  "description": "Einsteiger — Grundrechenarten im Zahlenraum bis 100.",
+  "questions": [
+    {
+      "id": "math-l0-q1",
+      "topic": "Addition",
+      "type": "number_input",
+      "question": "Wie viel ist 34 + 27?",
+      "correctAnswer": "61",
+      "explanation": "Rechne in zwei Schritten: 34 + 20 = 54, dann 54 + 7 = 61. [English: Split 27 into 20 + 7 and add in two steps.]",
+      "hints": ["Zerlege 27 in 20 und 7."]
+    },
+    {
+      "id": "math-l0-q2",
+      "topic": "Subtraktion",
+      "type": "multiple_choice",
+      "question": "Wie viel ist 65 − 28?",
+      "options": ["37", "43", "33", "47"],
+      "correctAnswer": "37",
+      "explanation": "Zerlege 28 in 25 und 3. Erst 65 − 25 = 40, dann 40 − 3 = 37. [English: Split 28 into 25 + 3 and subtract in steps.]",
+      "hints": ["Zerlege 28 in 25 und 3."]
+    },
+    {
+      "id": "math-l0-q3",
+      "topic": "Addition",
+      "type": "number_input",
+      "question": "Wie viel ist 12 + 18 + 25?",
+      "correctAnswer": "55",
+      "explanation": "Addiere paarweise. 12 + 18 = 30. Dann 30 + 25 = 55. [English: Add two numbers first, then add the third.]",
+      "hints": ["Rechne zuerst 12 + 18."]
+    },
+    {
+      "id": "math-l0-q4",
+      "topic": "Textaufgabe",
+      "type": "multiple_choice",
+      "question": "Ben hat 45 €. Er kauft ein Buch für 17 €. Wie viel Geld hat er noch?",
+      "options": ["22 €", "28 €", "32 €", "38 €"],
+      "correctAnswer": "28 €",
+      "explanation": "Du ziehst den Buchpreis vom Taschengeld ab: 45 − 17. Rechne 45 − 15 = 30, dann 30 − 2 = 28. Ben hat noch 28 €. [English: Subtract book price from money: 45 − 17 = 28.]",
+      "hints": ["Subtrahiere den Buchpreis vom Taschengeld."]
+    },
+    {
+      "id": "math-l0-q5",
+      "topic": "Ergänzungsaufgabe",
+      "type": "number_input",
+      "question": "Welche Zahl fehlt? 56 + ___ = 82",
+      "correctAnswer": "26",
+      "explanation": "Um die fehlende Zahl zu finden, rechne rückwärts: 82 − 56 = 26. Probe: 56 + 26 = 82. [English: Subtract to find the missing addend.]",
+      "hints": ["Rechne 82 − 56."]
+    },
+    {
+      "id": "math-l0-q6",
+      "topic": "Subtraktion",
+      "type": "number_input",
+      "question": "Wie viel ist 72 − 38?",
+      "correctAnswer": "34",
+      "explanation": "Zerlege 38 in 30 und 8. Erst 72 − 30 = 42, dann 42 − 8 = 34. [English: Break 38 into 30 + 8 and subtract step by step.]",
+      "hints": ["Zerlege 38 in 30 und 8."]
+    },
+    {
+      "id": "math-l0-q7",
+      "topic": "Vergleich",
+      "type": "multiple_choice",
+      "question": "Welcher Term hat den größeren Wert: 47 + 26 oder 89 − 18?",
+      "options": ["47 + 26", "89 − 18", "Beide sind gleich"],
+      "correctAnswer": "47 + 26",
+      "explanation": "Rechne beide aus: 47 + 26 = 73 und 89 − 18 = 71. 73 > 71, also ist 47 + 26 größer. [English: Compute both sides and compare.]",
+      "hints": ["Rechne beide Ausdrücke zuerst aus."]
+    },
+    {
+      "id": "math-l0-q8",
+      "topic": "Addition",
+      "type": "number_input",
+      "question": "Wie viel ist 15 + 23 + 39?",
+      "correctAnswer": "77",
+      "explanation": "Addiere der Reihe nach. 15 + 23 = 38, dann 38 + 39 = 77. [English: Add left to right.]",
+      "hints": ["Beginne links mit 15 + 23."]
+    },
+    {
+      "id": "math-l0-q9",
+      "topic": "Textaufgabe",
+      "type": "multiple_choice",
+      "question": "Laura pflückt 24 Äpfel, Tim pflückt 17 Äpfel. Wie viele Äpfel haben sie zusammen?",
+      "options": ["31", "41", "43", "47"],
+      "correctAnswer": "41",
+      "explanation": "Addiere beide Zahlen: 24 + 17 = 41. Tipp: 24 + 16 = 40, dann +1 = 41. [English: Add the two counts: 24 + 17 = 41.]",
+      "hints": ["Addiere die beiden Mengen."]
+    },
+    {
+      "id": "math-l0-q10",
+      "topic": "Textaufgabe",
+      "type": "number_input",
+      "question": "Ein Film dauert 80 Minuten. 43 Minuten sind schon vorbei. Wie viele Minuten fehlen noch?",
+      "correctAnswer": "37",
+      "explanation": "Ziehe die vergangene Zeit von der Gesamtdauer ab: 80 − 43. Rechne 80 − 40 = 40, dann 40 − 3 = 37. [English: Total minus elapsed = remaining.]",
+      "hints": ["Gesamtdauer minus vergangene Zeit."]
+    }
+  ]
+}

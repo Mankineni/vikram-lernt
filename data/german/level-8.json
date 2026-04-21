@@ -1,0 +1,153 @@
+{
+  "level": 8,
+  "subject": "german",
+  "title": "Aktiv und Passiv",
+  "description": "Schwer — Aktiv- und Passivsätze erkennen, bilden und umwandeln.",
+  "questions": [
+    {
+      "id": "german-l8-q1",
+      "topic": "Aktiv erkennen",
+      "type": "multiple_choice",
+      "question": "Welcher Satz steht im Aktiv?",
+      "options": [
+        "Der Brief wird geschrieben.",
+        "Peter schreibt den Brief.",
+        "Der Brief wird von Peter geschrieben.",
+        "Der Brief ist geschrieben worden."
+      ],
+      "correctAnswer": "Peter schreibt den Brief.",
+      "explanation": "Im Aktiv tut das Subjekt etwas. 'Peter' handelt aktiv. Die anderen Sätze sind im Passiv. [English: Active = subject does the action.]",
+      "hints": ["Wer ist das handelnde Subjekt?"]
+    },
+    {
+      "id": "german-l8-q2",
+      "topic": "Vorgangspassiv bilden",
+      "type": "multiple_choice",
+      "question": "Wie bildet man das Vorgangspassiv im Präsens?",
+      "options": [
+        "sein + Partizip II",
+        "haben + Partizip II",
+        "werden + Partizip II",
+        "wollen + Infinitiv"
+      ],
+      "correctAnswer": "werden + Partizip II",
+      "explanation": "Vorgangspassiv = 'werden' (konjugiert) + Partizip II. Beispiel: 'Der Brief wird geschrieben'. [English: Process passive = werden + past participle.]",
+      "hints": ["Das Hilfsverb beschreibt den Vorgang."]
+    },
+    {
+      "id": "german-l8-q3",
+      "topic": "Umwandlung Aktiv → Passiv",
+      "type": "multiple_choice",
+      "question": "Setze ins Passiv: 'Die Lehrerin lobt den Schüler.'",
+      "options": [
+        "Der Schüler lobt die Lehrerin.",
+        "Der Schüler wird von der Lehrerin gelobt.",
+        "Der Schüler hat die Lehrerin gelobt.",
+        "Der Schüler wird loben."
+      ],
+      "correctAnswer": "Der Schüler wird von der Lehrerin gelobt.",
+      "explanation": "Das Akkusativobjekt ('den Schüler') wird Subjekt; der alte Handelnde kommt mit 'von'. [English: Object becomes subject; actor added with 'von'.]",
+      "hints": ["Objekt wird zum Subjekt."]
+    },
+    {
+      "id": "german-l8-q4",
+      "topic": "Passiv erkennen",
+      "type": "multiple_choice",
+      "question": "Welcher Satz steht im Passiv?",
+      "options": [
+        "Paul ruft Mia an.",
+        "Mia ruft Paul an.",
+        "Paul wird angerufen.",
+        "Paul rief Mia an."
+      ],
+      "correctAnswer": "Paul wird angerufen.",
+      "explanation": "'wird angerufen' = werden + Partizip II → Passiv. [English: werden + past participle = passive.]",
+      "hints": ["Suche die Form mit 'werden + Partizip II'."]
+    },
+    {
+      "id": "german-l8-q5",
+      "topic": "Objekt → Subjekt",
+      "type": "multiple_choice",
+      "question": "Was passiert mit dem Akkusativobjekt bei der Umwandlung ins Passiv?",
+      "options": [
+        "Es wird zum Subjekt.",
+        "Es verschwindet.",
+        "Es wird zum Dativobjekt.",
+        "Es bleibt unverändert."
+      ],
+      "correctAnswer": "Es wird zum Subjekt.",
+      "explanation": "Im Passiv wird aus dem Akkusativobjekt des Aktivsatzes das neue Subjekt (im Nominativ). [English: Object of active → subject of passive.]",
+      "hints": ["Vom 4. Fall in den 1. Fall."]
+    },
+    {
+      "id": "german-l8-q6",
+      "topic": "Passiv ohne Urheber",
+      "type": "multiple_choice",
+      "question": "Wie lautet die Passivform von 'Der Koch bereitet das Essen zu.' ohne Nennung des Kochs?",
+      "options": [
+        "Das Essen wird zubereitet.",
+        "Das Essen wird zubereiten.",
+        "Das Essen ist zubereitet.",
+        "Der Koch wird zubereitet."
+      ],
+      "correctAnswer": "Das Essen wird zubereitet.",
+      "explanation": "Passiv mit 'werden' + Partizip II; ohne Urheber wird nur 'Das Essen' Subjekt. [English: Passive without actor = subject + werden + participle.]",
+      "hints": ["Partizip II von zubereiten: zubereitet."]
+    },
+    {
+      "id": "german-l8-q7",
+      "topic": "Zustandspassiv",
+      "type": "multiple_choice",
+      "question": "Welche Passivart liegt vor? — 'Das Fenster ist geöffnet.'",
+      "options": ["Vorgangspassiv", "Zustandspassiv", "Aktiv", "weder noch"],
+      "correctAnswer": "Zustandspassiv",
+      "explanation": "'sein + Partizip II' beschreibt einen Zustand → Zustandspassiv. Mit 'werden' wäre es Vorgangspassiv. [English: sein + participle = state passive.]",
+      "hints": ["Zustand oder Vorgang?"]
+    },
+    {
+      "id": "german-l8-q8",
+      "topic": "Passiv im Präteritum",
+      "type": "multiple_choice",
+      "question": "Setze ins Präteritum-Passiv: 'Anna öffnete die Tür.'",
+      "options": [
+        "Die Tür wurde geöffnet.",
+        "Die Tür wird geöffnet.",
+        "Die Tür ist geöffnet worden.",
+        "Die Tür öffnet sich."
+      ],
+      "correctAnswer": "Die Tür wurde geöffnet.",
+      "explanation": "Präteritum-Passiv: 'wurde' + Partizip II. Also 'Die Tür wurde geöffnet'. [English: Past passive: wurde + past participle.]",
+      "hints": ["Hilfsverb 'werden' in der Vergangenheit."]
+    },
+    {
+      "id": "german-l8-q9",
+      "topic": "Aktiv vs. Passiv",
+      "type": "multiple_choice",
+      "question": "Welcher Satz steht im Aktiv?",
+      "options": [
+        "Der Kuchen wird gebacken.",
+        "Oma backt einen Kuchen.",
+        "Der Kuchen ist gebacken.",
+        "Der Kuchen wurde gegessen."
+      ],
+      "correctAnswer": "Oma backt einen Kuchen.",
+      "explanation": "Aktiv: Subjekt ('Oma') führt die Handlung aus. Die anderen sind Passivformen. [English: Subject performs the action = active.]",
+      "hints": ["Wer handelt direkt?"]
+    },
+    {
+      "id": "german-l8-q10",
+      "topic": "Verwendung Passiv",
+      "type": "multiple_choice",
+      "question": "Warum verwendet man das Passiv im Deutschen oft?",
+      "options": [
+        "Um das Subjekt wichtig zu machen.",
+        "Wenn der Täter unbekannt oder unwichtig ist.",
+        "Nur bei Fragen.",
+        "Um den Satz länger zu machen."
+      ],
+      "correctAnswer": "Wenn der Täter unbekannt oder unwichtig ist.",
+      "explanation": "Das Passiv lenkt den Fokus auf die Handlung und verschweigt den Handelnden, wenn dieser unwichtig ist. Beispiel: 'Das Haus wurde 1920 gebaut.' [English: Passive used when actor is unknown or irrelevant.]",
+      "hints": ["Wer es getan hat, spielt keine Rolle."]
+    }
+  ]
+}

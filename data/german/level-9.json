@@ -1,0 +1,130 @@
+{
+  "level": 9,
+  "subject": "german",
+  "title": "Indirekte Rede und starke/schwache Verben",
+  "description": "Experte — Konjunktiv I in der indirekten Rede und Unterschiede bei starken vs. schwachen Verben.",
+  "questions": [
+    {
+      "id": "german-l9-q1",
+      "topic": "Starkes Verb erkennen",
+      "type": "multiple_choice",
+      "question": "Was zeichnet ein starkes Verb aus?",
+      "options": [
+        "Ein Verb, das laut gesprochen wird.",
+        "Ein Verb mit Vokaländerung (z. B. singen → sang).",
+        "Ein regelmäßiges Verb mit -te.",
+        "Ein Modalverb."
+      ],
+      "correctAnswer": "Ein Verb mit Vokaländerung (z. B. singen → sang).",
+      "explanation": "Starke (unregelmäßige) Verben ändern im Präteritum und Partizip II den Stammvokal. Beispiel: singen → sang → gesungen. [English: Strong verbs change the stem vowel.]",
+      "hints": ["Der Stammvokal ändert sich."]
+    },
+    {
+      "id": "german-l9-q2",
+      "topic": "Schwaches Verb erkennen",
+      "type": "multiple_choice",
+      "question": "Welches dieser Verben ist schwach (regelmäßig)?",
+      "options": ["gehen", "machen", "sehen", "nehmen"],
+      "correctAnswer": "machen",
+      "explanation": "'machen' folgt dem regelmäßigen Schema: machen → machte → gemacht. Die anderen sind stark. [English: Weak verb pattern: -te / ge-…-t.]",
+      "hints": ["Welches Verb bildet das Präteritum mit -te?"]
+    },
+    {
+      "id": "german-l9-q3",
+      "topic": "Präteritum starkes Verb",
+      "type": "text_input",
+      "question": "Wie lautet das Präteritum von 'singen' in der 3. Person Singular? 'Er ___.'",
+      "correctAnswer": "sang",
+      "explanation": "singen → ich sang, du sangst, er sang. Starkes Verb mit Vokalwechsel. [English: Strong past of 'singen' = sang.]",
+      "hints": ["Der Stammvokal wechselt von i zu a."]
+    },
+    {
+      "id": "german-l9-q4",
+      "topic": "Indirekte Rede Modus",
+      "type": "multiple_choice",
+      "question": "Welcher Modus wird in der indirekten Rede traditionell verwendet?",
+      "options": [
+        "Konjunktiv I",
+        "Indikativ",
+        "Imperativ",
+        "gar keiner"
+      ],
+      "correctAnswer": "Konjunktiv I",
+      "explanation": "Die indirekte Rede (besonders im schriftlichen Deutsch) verwendet den Konjunktiv I. Beispiel: 'Er sagt, er komme später.' [English: Indirect speech → subjunctive I.]",
+      "hints": ["Besonderer Modus für Berichterstattung."]
+    },
+    {
+      "id": "german-l9-q5",
+      "topic": "Direkte zu indirekter Rede",
+      "type": "multiple_choice",
+      "question": "Setze in die indirekte Rede: 'Paul sagt: „Ich bin müde.\"'",
+      "options": [
+        "Paul sagt, dass er müde ist.",
+        "Paul sagt, dass ich müde bin.",
+        "Paul sagt, er ist müde.",
+        "Paul sagt: müde."
+      ],
+      "correctAnswer": "Paul sagt, dass er müde ist.",
+      "explanation": "Das Pronomen wechselt: 'Ich' → 'er'. Der Nebensatz wird mit 'dass' eingeleitet. [English: 'I' → 'he'; introduce with 'dass'.]",
+      "hints": ["Das Pronomen muss angepasst werden."]
+    },
+    {
+      "id": "german-l9-q6",
+      "topic": "Partizip II stark",
+      "type": "text_input",
+      "question": "Wie lautet das Partizip II von 'nehmen'?",
+      "correctAnswer": "genommen",
+      "explanation": "Starkes Verb: nehmen → nahm → genommen. [English: Irregular: nehmen → genommen.]",
+      "hints": ["Der Vokal im Partizip II lautet o."]
+    },
+    {
+      "id": "german-l9-q7",
+      "topic": "Schwaches Verb erkennen",
+      "type": "multiple_choice",
+      "question": "Welches ist ein schwaches Verb?",
+      "options": ["laufen", "kommen", "arbeiten", "trinken"],
+      "correctAnswer": "arbeiten",
+      "explanation": "'arbeiten' ist regelmäßig: arbeiten → arbeitete → gearbeitet. Die anderen sind stark. [English: 'arbeiten' follows the weak pattern.]",
+      "hints": ["Präteritum mit -te?"]
+    },
+    {
+      "id": "german-l9-q8",
+      "topic": "Indirekte Rede mit dass",
+      "type": "multiple_choice",
+      "question": "Setze in die indirekte Rede: 'Lisa sagt: „Ich habe Hunger.\"'",
+      "options": [
+        "Lisa sagt, dass sie Hunger hat.",
+        "Lisa sagt, dass ich Hunger habe.",
+        "Lisa sagte: Ich habe Hunger.",
+        "Lisa fragt, ob sie Hunger hat."
+      ],
+      "correctAnswer": "Lisa sagt, dass sie Hunger hat.",
+      "explanation": "Pronomenwechsel ('Ich' → 'sie'), Nebensatz mit 'dass'. [English: 'ich' → 'sie'; introduce with 'dass'.]",
+      "hints": ["Wer spricht? Das Pronomen entsprechend anpassen."]
+    },
+    {
+      "id": "german-l9-q9",
+      "topic": "Präteritum stark",
+      "type": "text_input",
+      "question": "Wie lautet das Präteritum von 'trinken' in der 1. Person Singular? 'Ich ___.'",
+      "correctAnswer": "trank",
+      "explanation": "Starkes Verb: trinken → ich trank → getrunken. [English: Strong: trinken → trank.]",
+      "hints": ["Vokalwechsel von i zu a."]
+    },
+    {
+      "id": "german-l9-q10",
+      "topic": "Partizip II schwach",
+      "type": "multiple_choice",
+      "question": "Wie bildet man das Partizip II eines schwachen Verbs?",
+      "options": [
+        "ge- + Stamm + -t",
+        "ge- + Stamm + -en",
+        "nur Stamm",
+        "Stamm + -te"
+      ],
+      "correctAnswer": "ge- + Stamm + -t",
+      "explanation": "Regelmäßig: ge- davor, -t dahinter. Beispiel: spielen → gespielt. [English: Weak participle = ge- + stem + -t.]",
+      "hints": ["Zwei Teile werden hinzugefügt."]
+    }
+  ]
+}

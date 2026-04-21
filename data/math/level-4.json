@@ -1,0 +1,106 @@
+{
+  "level": 4,
+  "subject": "math",
+  "title": "Bruchrechnung — addieren, subtrahieren, multiplizieren",
+  "description": "Mittel — mit Brüchen sicher rechnen, auch bei verschiedenen Nennern.",
+  "questions": [
+    {
+      "id": "math-l4-q1",
+      "topic": "Brüche addieren",
+      "type": "multiple_choice",
+      "question": "Wie viel ist 1/4 + 1/2?",
+      "options": ["2/6", "3/4", "2/4", "1/8"],
+      "correctAnswer": "3/4",
+      "explanation": "Mache die Nenner gleich: 1/2 = 2/4. Dann 1/4 + 2/4 = 3/4. [English: Find a common denominator, then add.]",
+      "hints": ["Schreibe 1/2 als Bruch mit Nenner 4."]
+    },
+    {
+      "id": "math-l4-q2",
+      "topic": "Brüche subtrahieren",
+      "type": "multiple_choice",
+      "question": "Wie viel ist 5/6 − 1/6? Gib die Antwort gekürzt an.",
+      "options": ["2/3", "4/12", "1/3", "6/12"],
+      "correctAnswer": "2/3",
+      "explanation": "Gleicher Nenner: ziehe die Zähler ab, 5 − 1 = 4. Das ergibt 4/6. Gekürzt mit 2: 2/3. [English: Same denominator → subtract tops; reduce.]",
+      "hints": ["Erst Zähler abziehen, dann kürzen."]
+    },
+    {
+      "id": "math-l4-q3",
+      "topic": "Brüche multiplizieren",
+      "type": "multiple_choice",
+      "question": "Wie viel ist 2/3 · 3/4? Gib die Antwort gekürzt an.",
+      "options": ["1/2", "5/7", "2/7", "3/5"],
+      "correctAnswer": "1/2",
+      "explanation": "Zähler mal Zähler, Nenner mal Nenner: (2·3)/(3·4) = 6/12. Gekürzt mit 6: 1/2. [English: Multiply tops and bottoms, then reduce.]",
+      "hints": ["Zähler mal Zähler, Nenner mal Nenner."]
+    },
+    {
+      "id": "math-l4-q4",
+      "topic": "Brüche addieren",
+      "type": "multiple_choice",
+      "question": "Wie viel ist 3/8 + 1/4?",
+      "options": ["4/8", "5/8", "4/12", "1/2"],
+      "correctAnswer": "5/8",
+      "explanation": "Gleichnamig machen: 1/4 = 2/8. Dann 3/8 + 2/8 = 5/8. [English: Convert 1/4 to 2/8, then add.]",
+      "hints": ["Wandle 1/4 in Achtel um."]
+    },
+    {
+      "id": "math-l4-q5",
+      "topic": "Brüche subtrahieren",
+      "type": "multiple_choice",
+      "question": "Wie viel ist 7/10 − 2/5?",
+      "options": ["5/5", "3/10", "5/10", "1/2"],
+      "correctAnswer": "3/10",
+      "explanation": "2/5 = 4/10 (mit 2 erweitert). Dann 7/10 − 4/10 = 3/10. [English: Common denominator 10.]",
+      "hints": ["Erweitere 2/5 auf Zehntel."]
+    },
+    {
+      "id": "math-l4-q6",
+      "topic": "Brüche multiplizieren",
+      "type": "multiple_choice",
+      "question": "Wie viel ist 1/3 · 1/2?",
+      "options": ["1/5", "2/6", "1/6", "2/3"],
+      "correctAnswer": "1/6",
+      "explanation": "Zähler mal Zähler: 1 · 1 = 1. Nenner mal Nenner: 3 · 2 = 6. Also 1/6. [English: Multiply tops and bottoms.]",
+      "hints": ["Achte darauf: 2/6 ist dasselbe wie 1/3, also nicht die Antwort."]
+    },
+    {
+      "id": "math-l4-q7",
+      "topic": "Gemischte Bruchrechnung",
+      "type": "multiple_choice",
+      "question": "Wie viel ist 5/8 + 1/8 − 1/4?",
+      "options": ["3/8", "1/2", "4/8", "6/8"],
+      "correctAnswer": "1/2",
+      "explanation": "Erst 5/8 + 1/8 = 6/8. Dann 1/4 = 2/8. 6/8 − 2/8 = 4/8 = 1/2. [English: Add the 8ths, convert 1/4 to 2/8, subtract, reduce.]",
+      "hints": ["Erst in 8teln rechnen, am Ende kürzen."]
+    },
+    {
+      "id": "math-l4-q8",
+      "topic": "Bruch mal ganze Zahl",
+      "type": "number_input",
+      "question": "Wie viel ist 3/4 · 8? Gib eine ganze Zahl an.",
+      "correctAnswer": "6",
+      "explanation": "Teile 8 in 4 Teile: 8:4 = 2. Multipliziere mit 3: 2·3 = 6. Oder: (3·8)/4 = 24/4 = 6. [English: 3/4 of 8 = 6.]",
+      "hints": ["Erst durch 4 teilen, dann mit 3 multiplizieren."]
+    },
+    {
+      "id": "math-l4-q9",
+      "topic": "Anteil berechnen",
+      "type": "number_input",
+      "question": "Wie viel sind 2/5 von 30?",
+      "correctAnswer": "12",
+      "explanation": "30 : 5 = 6. 6 · 2 = 12. Also sind 2/5 von 30 gleich 12. [English: Divide by bottom, multiply by top.]",
+      "hints": ["Teile durch den Nenner, dann mal den Zähler."]
+    },
+    {
+      "id": "math-l4-q10",
+      "topic": "Textaufgabe Brüche",
+      "type": "multiple_choice",
+      "question": "Anna hat einen Kuchen. Sie isst 1/4 davon, ihre Schwester isst 3/8. Wie viel Kuchen bleibt übrig?",
+      "options": ["3/8", "5/8", "4/8", "1/2"],
+      "correctAnswer": "3/8",
+      "explanation": "1/4 = 2/8. Gegessen: 2/8 + 3/8 = 5/8. Rest: 8/8 − 5/8 = 3/8. [English: Add what's eaten; subtract from one whole.]",
+      "hints": ["Erst alles Gegessene zusammenzählen."]
+    }
+  ]
+}

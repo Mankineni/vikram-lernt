@@ -1,0 +1,102 @@
+{
+  "level": 1,
+  "subject": "math",
+  "title": "Einmaleins — Multiplikation und Division",
+  "description": "Leicht — kleine Mal- und Teilaufgaben sicher beherrschen.",
+  "questions": [
+    {
+      "id": "math-l1-q1",
+      "topic": "Multiplikation",
+      "type": "multiple_choice",
+      "question": "Wie viel ist 7 · 8?",
+      "options": ["54", "56", "58", "64"],
+      "correctAnswer": "56",
+      "explanation": "7er-Einmaleins: 7 · 8 = 56. Trick: 7 · 8 = 7 · 4 · 2 = 28 · 2 = 56. [English: Memorize 7×8=56 or double 7×4.]",
+      "hints": ["Denke an das 7er-Einmaleins."]
+    },
+    {
+      "id": "math-l1-q2",
+      "topic": "Multiplikation",
+      "type": "number_input",
+      "question": "Wie viel ist 6 · 9?",
+      "correctAnswer": "54",
+      "explanation": "Trick bei der 9: 6 · 9 = 6 · 10 − 6 = 60 − 6 = 54. [English: ×9 = ×10 minus ×1.]",
+      "hints": ["Rechne erst 6 · 10 und ziehe 6 ab."]
+    },
+    {
+      "id": "math-l1-q3",
+      "topic": "Division",
+      "type": "number_input",
+      "question": "Wie viel ist 72 : 8?",
+      "correctAnswer": "9",
+      "explanation": "Teilen ist die Umkehrung von Malnehmen. Frage: 'Welche Zahl mal 8 ergibt 72?' Antwort: 9, denn 9 · 8 = 72. [English: Division reverses multiplication; 9×8=72.]",
+      "hints": ["Denke: ___ · 8 = 72."]
+    },
+    {
+      "id": "math-l1-q4",
+      "topic": "Division",
+      "type": "multiple_choice",
+      "question": "Wie viel ist 48 : 6?",
+      "options": ["6", "7", "8", "9"],
+      "correctAnswer": "8",
+      "explanation": "Wie oft passt 6 in 48? 6 · 8 = 48, also 48 : 6 = 8. [English: How many 6s fit in 48? 8, since 6×8=48.]",
+      "hints": ["Welche Zahl mal 6 ergibt 48?"]
+    },
+    {
+      "id": "math-l1-q5",
+      "topic": "Multiplikation",
+      "type": "number_input",
+      "question": "Wie viel ist 12 · 5?",
+      "correctAnswer": "60",
+      "explanation": "Mal 5 ist die Hälfte von mal 10. 12 · 10 = 120, halb davon ist 60. [English: ×5 is half of ×10.]",
+      "hints": ["Rechne erst mal 10, dann halbiere."]
+    },
+    {
+      "id": "math-l1-q6",
+      "topic": "Division",
+      "type": "number_input",
+      "question": "Wie viel ist 63 : 7?",
+      "correctAnswer": "9",
+      "explanation": "7 · 9 = 63, also 63 : 7 = 9. [English: Think of the multiplication partner: 7×9=63.]",
+      "hints": ["Denke an das 7er-Einmaleins."]
+    },
+    {
+      "id": "math-l1-q7",
+      "topic": "Textaufgabe Multiplikation",
+      "type": "multiple_choice",
+      "question": "In einem Regal stehen 4 Kisten. In jeder Kiste sind 9 Stifte. Wie viele Stifte sind es insgesamt?",
+      "options": ["32", "36", "40", "45"],
+      "correctAnswer": "36",
+      "explanation": "'Pro Kiste' mal 'Anzahl Kisten' = Gesamt. 4 · 9 = 36 Stifte. [English: Number of boxes × items per box = total; 4×9=36.]",
+      "hints": ["Multipliziere die Anzahl der Kisten mit den Stiften pro Kiste."]
+    },
+    {
+      "id": "math-l1-q8",
+      "topic": "Textaufgabe Division",
+      "type": "number_input",
+      "question": "56 Bonbons werden gleichmäßig auf 7 Kinder verteilt. Wie viele bekommt jedes Kind?",
+      "correctAnswer": "8",
+      "explanation": "Gleichmäßig verteilen heißt teilen: 56 : 7 = 8, denn 7 · 8 = 56. Jedes Kind bekommt 8 Bonbons. [English: Divide evenly: 56 ÷ 7 = 8 each.]",
+      "hints": ["Teile die Gesamtzahl durch die Anzahl der Kinder."]
+    },
+    {
+      "id": "math-l1-q9",
+      "topic": "Multiplikation",
+      "type": "number_input",
+      "question": "Wie viel ist 11 · 7?",
+      "correctAnswer": "77",
+      "explanation": "11er-Trick bei einer einstelligen Zahl: die Ziffer verdoppeln. 11 · 7 = 77. [English: 11 times a single digit repeats that digit.]",
+      "hints": ["Beim 11er verdoppelst du die Ziffer."]
+    },
+    {
+      "id": "math-l1-q10",
+      "topic": "Division",
+      "type": "multiple_choice",
+      "question": "Wie viel ist 81 : 9?",
+      "options": ["7", "8", "9", "10"],
+      "correctAnswer": "9",
+      "explanation": "9 · 9 = 81, also 81 : 9 = 9. [English: 9×9=81, so 81÷9=9.]",
+      "hints": ["9 mal 9 ergibt 81."]
+    }
+  ]
+}

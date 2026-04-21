@@ -1,0 +1,106 @@
+{
+  "level": 0,
+  "subject": "german",
+  "title": "Wortarten — Nomen, Verb, Adjektiv",
+  "description": "Einsteiger — die drei wichtigsten Wortarten erkennen.",
+  "questions": [
+    {
+      "id": "german-l0-q1",
+      "topic": "Nomen erkennen",
+      "type": "multiple_choice",
+      "question": "Welches Wort im Satz ist ein Nomen? — 'Der Hund läuft schnell.'",
+      "options": ["Der", "Hund", "läuft", "schnell"],
+      "correctAnswer": "Hund",
+      "explanation": "Nomen sind Namen für Menschen, Tiere, Dinge oder Gefühle. Im Deutschen werden sie immer großgeschrieben. 'Hund' ist ein Tier — also ein Nomen. [English: Nouns name things; in German they're always capitalized.]",
+      "hints": ["Nomen schreibt man groß."]
+    },
+    {
+      "id": "german-l0-q2",
+      "topic": "Verb erkennen",
+      "type": "multiple_choice",
+      "question": "Welches Wort im Satz ist ein Verb? — 'Die Katze schläft im Korb.'",
+      "options": ["Katze", "schläft", "Korb", "im"],
+      "correctAnswer": "schläft",
+      "explanation": "Verben sagen, was jemand tut oder wie etwas ist. 'schläft' ist eine Tätigkeit — also ein Verb. [English: Verbs describe actions or states.]",
+      "hints": ["Was tut die Katze?"]
+    },
+    {
+      "id": "german-l0-q3",
+      "topic": "Adjektiv erkennen",
+      "type": "multiple_choice",
+      "question": "Welches Wort im Satz ist ein Adjektiv? — 'Der rote Ball rollt.'",
+      "options": ["Der", "rote", "Ball", "rollt"],
+      "correctAnswer": "rote",
+      "explanation": "Adjektive beschreiben, wie etwas ist. 'rote' sagt uns, welche Farbe der Ball hat — also ein Adjektiv. [English: Adjectives describe nouns (red ball).]",
+      "hints": ["Welches Wort beschreibt den Ball?"]
+    },
+    {
+      "id": "german-l0-q4",
+      "topic": "Großschreibung",
+      "type": "multiple_choice",
+      "question": "Welche Schreibweise ist richtig?",
+      "options": ["das buch", "Das Buch", "das Buch", "Das buch"],
+      "correctAnswer": "das Buch",
+      "explanation": "Nomen werden im Deutschen immer großgeschrieben. Der Artikel 'das' bleibt klein, wenn er nicht am Satzanfang steht. [English: Nouns capitalized; articles lowercase unless at start of sentence.]",
+      "hints": ["Nomen groß, Artikel im Satz klein."]
+    },
+    {
+      "id": "german-l0-q5",
+      "topic": "Wortart bestimmen",
+      "type": "multiple_choice",
+      "question": "Welches der folgenden Wörter ist KEIN Nomen?",
+      "options": ["Tisch", "Freude", "schnell", "Computer"],
+      "correctAnswer": "schnell",
+      "explanation": "'schnell' beschreibt eine Eigenschaft und ist ein Adjektiv. Tisch, Freude und Computer sind Nomen (Gegenstand, Gefühl, Ding). [English: 'schnell' describes, so it's an adjective, not a noun.]",
+      "hints": ["Was beschreibt eine Eigenschaft, kein Ding?"]
+    },
+    {
+      "id": "german-l0-q6",
+      "topic": "Verb konjugieren",
+      "type": "text_input",
+      "question": "Ergänze das Verb im Präsens: 'Anna ___ im Park.' (spielen)",
+      "correctAnswer": "spielt",
+      "explanation": "Bei 'Anna' (3. Person Singular) heißt es 'spielt'. Grundform 'spielen' → er/sie/es spielt. [English: Third-person singular of 'spielen' = spielt.]",
+      "hints": ["Was macht Anna? er/sie/es + ?"]
+    },
+    {
+      "id": "german-l0-q7",
+      "topic": "Adjektiv auswählen",
+      "type": "multiple_choice",
+      "question": "Welches Adjektiv passt? — 'Die Sonne ist ___.'",
+      "options": ["laufen", "hell", "Tag", "Hund"],
+      "correctAnswer": "hell",
+      "explanation": "'hell' beschreibt, wie die Sonne ist — ein Adjektiv. Die anderen Wörter sind Verb oder Nomen. [English: 'hell' = bright, describes a property.]",
+      "hints": ["Was beschreibt, wie die Sonne ist?"]
+    },
+    {
+      "id": "german-l0-q8",
+      "topic": "Verb finden",
+      "type": "text_input",
+      "question": "Finde das Verb in diesem Satz und schreibe es: 'Der Junge liest ein spannendes Buch.'",
+      "correctAnswer": "liest",
+      "explanation": "'liest' beschreibt die Tätigkeit des Jungen — das Verb. (Grundform: lesen) [English: 'liest' = reads, the action in the sentence.]",
+      "hints": ["Was macht der Junge?"]
+    },
+    {
+      "id": "german-l0-q9",
+      "topic": "Nomen finden",
+      "type": "multiple_choice",
+      "question": "Welches Wort ist ein Nomen? — 'Wir malen ein schönes Bild.'",
+      "options": ["Wir", "malen", "schönes", "Bild"],
+      "correctAnswer": "Bild",
+      "explanation": "'Bild' ist ein Ding (und wird großgeschrieben) — ein Nomen. 'malen' ist das Verb, 'schönes' das Adjektiv. [English: 'Bild' = picture, a thing → noun.]",
+      "hints": ["Welches Wort ist großgeschrieben und ein Ding?"]
+    },
+    {
+      "id": "german-l0-q10",
+      "topic": "Adjektiv erkennen",
+      "type": "multiple_choice",
+      "question": "Welches dieser Wörter ist ein Adjektiv?",
+      "options": ["Auto", "schnell", "fahren", "Straße"],
+      "correctAnswer": "schnell",
+      "explanation": "'schnell' beschreibt eine Eigenschaft (wie etwas ist) — also ein Adjektiv. 'Auto' und 'Straße' sind Nomen, 'fahren' ist ein Verb. [English: Adjective = describes a noun.]",
+      "hints": ["Welches Wort beschreibt etwas?"]
+    }
+  ]
+}

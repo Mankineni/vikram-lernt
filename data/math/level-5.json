@@ -1,0 +1,103 @@
+{
+  "level": 5,
+  "subject": "math",
+  "title": "Prozentrechnung und Mittelwert",
+  "description": "Fortgeschritten — Anteile als Prozent und Durchschnittswerte berechnen.",
+  "questions": [
+    {
+      "id": "math-l5-q1",
+      "topic": "Prozent von einer Zahl",
+      "type": "number_input",
+      "question": "Wie viel sind 50 % von 80?",
+      "correctAnswer": "40",
+      "explanation": "50 % heißt 'die Hälfte'. 80 : 2 = 40. [English: 50% = half; 80 ÷ 2 = 40.]",
+      "hints": ["50 % ist die Hälfte."]
+    },
+    {
+      "id": "math-l5-q2",
+      "topic": "Prozent als Dezimalzahl",
+      "type": "multiple_choice",
+      "question": "Welche Dezimalzahl entspricht 25 %?",
+      "options": ["0,025", "0,25", "2,5", "25"],
+      "correctAnswer": "0,25",
+      "explanation": "Prozent in eine Dezimalzahl: durch 100 teilen. 25 : 100 = 0,25. [English: % ÷ 100 = decimal.]",
+      "hints": ["Verschiebe das Komma zwei Stellen nach links."]
+    },
+    {
+      "id": "math-l5-q3",
+      "topic": "Prozent von einer Zahl",
+      "type": "number_input",
+      "question": "Wie viel sind 10 % von 250?",
+      "correctAnswer": "25",
+      "explanation": "10 % heißt 'ein Zehntel'. 250 : 10 = 25. [English: 10% = divide by 10.]",
+      "hints": ["Komma eine Stelle nach links."]
+    },
+    {
+      "id": "math-l5-q4",
+      "topic": "Rabatt",
+      "type": "multiple_choice",
+      "question": "Ein Pullover kostet 40 €. Es gibt 20 % Rabatt. Wie viel zahlst du jetzt?",
+      "options": ["20 €", "28 €", "32 €", "38 €"],
+      "correctAnswer": "32 €",
+      "explanation": "20 % von 40 € = 0,20 · 40 = 8 €. Neuer Preis: 40 − 8 = 32 €. [English: 20% of 40 = 8; 40 − 8 = 32.]",
+      "hints": ["Erst den Rabattbetrag berechnen, dann abziehen."]
+    },
+    {
+      "id": "math-l5-q5",
+      "topic": "Anteil in Prozent",
+      "type": "multiple_choice",
+      "question": "Wie viel Prozent sind 15 von 60?",
+      "options": ["15 %", "25 %", "40 %", "60 %"],
+      "correctAnswer": "25 %",
+      "explanation": "Anteil = 15/60 = 1/4 = 25 %. Tipp: ein Viertel ist immer 25 %. [English: 15/60 = 1/4 = 25%.]",
+      "hints": ["Kürze den Bruch 15/60 erst."]
+    },
+    {
+      "id": "math-l5-q6",
+      "topic": "Mittelwert",
+      "type": "number_input",
+      "question": "Was ist der Mittelwert von 4, 6, 8, 10 und 12?",
+      "correctAnswer": "8",
+      "explanation": "Summe: 4+6+8+10+12 = 40. Teile durch 5 (Anzahl der Werte): 40 : 5 = 8. [English: Sum ÷ count = mean.]",
+      "hints": ["Erst alles addieren, dann durch 5 teilen."]
+    },
+    {
+      "id": "math-l5-q7",
+      "topic": "Notendurchschnitt",
+      "type": "number_input",
+      "question": "Vikram hat die Noten 2, 3, 2 und 5 bekommen. Wie ist sein Durchschnitt?",
+      "correctAnswer": "3",
+      "explanation": "Summe: 2+3+2+5 = 12. Geteilt durch 4 Noten: 12 : 4 = 3. Durchschnitt = 3. [English: Add the grades, divide by how many.]",
+      "hints": ["Addiere die Noten, teile durch 4."]
+    },
+    {
+      "id": "math-l5-q8",
+      "topic": "Rabatt",
+      "type": "multiple_choice",
+      "question": "Eine Schokolade kostet 5 €. Sie ist 20 % günstiger. Neuer Preis?",
+      "options": ["3 €", "4 €", "4,50 €", "4,80 €"],
+      "correctAnswer": "4 €",
+      "explanation": "20 % von 5 € = 1 €. 5 − 1 = 4 €. [English: 20% of 5 = 1; 5 − 1 = 4.]",
+      "hints": ["1/5 von 5 ist genau 1."]
+    },
+    {
+      "id": "math-l5-q9",
+      "topic": "Anteil in Prozent",
+      "type": "multiple_choice",
+      "question": "In einer Klasse mit 24 Schülern tragen 6 eine Brille. Wie viel Prozent sind das?",
+      "options": ["20 %", "25 %", "30 %", "50 %"],
+      "correctAnswer": "25 %",
+      "explanation": "Anteil = 6/24 = 1/4 = 25 %. [English: 6/24 = 1/4 = 25%.]",
+      "hints": ["6 von 24 lässt sich zu 1/4 kürzen."]
+    },
+    {
+      "id": "math-l5-q10",
+      "topic": "Mittelwert",
+      "type": "number_input",
+      "question": "In einer Woche liest Vikram so viel: Mo 2 h, Di 3 h, Mi 1 h, Do 4 h, Fr 2 h, Sa 0 h, So 2 h. Wie viel liest er im Durchschnitt pro Tag?",
+      "correctAnswer": "2",
+      "explanation": "Summe: 2+3+1+4+2+0+2 = 14 Stunden. Teile durch 7 Tage: 14 : 7 = 2 h pro Tag. [English: Total hours ÷ 7 days.]",
+      "hints": ["Alle Stunden addieren, durch 7 teilen."]
+    }
+  ]
+}

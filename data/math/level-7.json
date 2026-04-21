@@ -1,0 +1,101 @@
+{
+  "level": 7,
+  "subject": "math",
+  "title": "Geometrie und negative Zahlen",
+  "description": "Schwer — Umfang, Flächeninhalt, Winkel und das Rechnen mit negativen Zahlen.",
+  "questions": [
+    {
+      "id": "math-l7-q1",
+      "topic": "Umfang Rechteck",
+      "type": "number_input",
+      "question": "Ein Rechteck ist 8 cm lang und 5 cm breit. Wie groß ist der Umfang in cm?",
+      "correctAnswer": "26",
+      "explanation": "Umfang = 2 · (Länge + Breite) = 2 · (8 + 5) = 2 · 13 = 26 cm. [English: Perimeter = 2 × (length + width).]",
+      "hints": ["Alle vier Seiten addieren — oder die Formel 2·(a+b)."]
+    },
+    {
+      "id": "math-l7-q2",
+      "topic": "Flächeninhalt Quadrat",
+      "type": "number_input",
+      "question": "Wie groß ist der Flächeninhalt eines Quadrats mit Seitenlänge 7 cm? Antwort in cm².",
+      "correctAnswer": "49",
+      "explanation": "Flächeninhalt = Seite · Seite = 7 · 7 = 49. Antwort: 49 cm². [English: Area of square = side × side.]",
+      "hints": ["Quadratfläche = Seite · Seite."]
+    },
+    {
+      "id": "math-l7-q3",
+      "topic": "Flächeninhalt Rechteck",
+      "type": "number_input",
+      "question": "Ein Rechteck ist 6 m lang und 4 m breit. Wie groß ist der Flächeninhalt in m²?",
+      "correctAnswer": "24",
+      "explanation": "Rechteckfläche = Länge · Breite = 6 · 4 = 24 m². [English: Area = length × width.]",
+      "hints": ["Länge mal Breite."]
+    },
+    {
+      "id": "math-l7-q4",
+      "topic": "Winkel",
+      "type": "multiple_choice",
+      "question": "Wie groß ist ein rechter Winkel?",
+      "options": ["45°", "60°", "90°", "180°"],
+      "correctAnswer": "90°",
+      "explanation": "Ein rechter Winkel misst genau 90°. Du erkennst ihn oft an einem kleinen Quadrat im Winkelscheitel. [English: A right angle = 90°.]",
+      "hints": ["Er sieht aus wie die Ecke eines Blattes."]
+    },
+    {
+      "id": "math-l7-q5",
+      "topic": "Winkelsumme Dreieck",
+      "type": "multiple_choice",
+      "question": "Wie groß ist die Summe der Innenwinkel eines Dreiecks?",
+      "options": ["90°", "180°", "270°", "360°"],
+      "correctAnswer": "180°",
+      "explanation": "In jedem Dreieck ergeben die drei Innenwinkel zusammen 180°. Beispiel: 60° + 60° + 60° = 180° (gleichseitig). [English: Triangle angles always sum to 180°.]",
+      "hints": ["Die drei Winkel ergeben immer dieselbe Summe."]
+    },
+    {
+      "id": "math-l7-q6",
+      "topic": "Negative Zahlen addieren",
+      "type": "number_input",
+      "question": "Wie viel ist −5 + 3?",
+      "correctAnswer": "-2",
+      "explanation": "Starte auf der Zahlengerade bei −5 und gehe 3 Schritte nach rechts: −5 → −4 → −3 → −2. [English: Start at -5, move 3 right on number line.]",
+      "hints": ["Stelle dir die Zahlengerade vor."]
+    },
+    {
+      "id": "math-l7-q7",
+      "topic": "Negative Zahlen subtrahieren",
+      "type": "number_input",
+      "question": "Wie viel ist −7 − 4?",
+      "correctAnswer": "-11",
+      "explanation": "Von −7 noch 4 weiter nach links: −7 − 4 = −11. Minus und Minus machen die Zahl kleiner (weiter links). [English: From -7, move 4 more left = -11.]",
+      "hints": ["Noch weiter nach links auf der Zahlengeraden."]
+    },
+    {
+      "id": "math-l7-q8",
+      "topic": "Negative Zahlen vergleichen",
+      "type": "multiple_choice",
+      "question": "Welche Temperatur ist kälter: −3 °C oder −8 °C?",
+      "options": ["−3 °C", "−8 °C", "Beide gleich"],
+      "correctAnswer": "−8 °C",
+      "explanation": "Je weiter unten auf der Temperaturskala, desto kälter. −8 liegt unter −3, also ist −8 °C kälter. [English: More negative = colder.]",
+      "hints": ["Stelle dir ein Thermometer vor."]
+    },
+    {
+      "id": "math-l7-q9",
+      "topic": "Flächeninhalt Dreieck",
+      "type": "number_input",
+      "question": "Ein rechtwinkliges Dreieck hat die beiden kurzen Seiten 6 cm und 4 cm. Wie groß ist der Flächeninhalt in cm²?",
+      "correctAnswer": "12",
+      "explanation": "Dreieckfläche = (Grundseite · Höhe) : 2 = (6 · 4) : 2 = 24 : 2 = 12 cm². [English: Triangle area = (base × height) ÷ 2.]",
+      "hints": ["Erst Grundseite mal Höhe, dann durch 2."]
+    },
+    {
+      "id": "math-l7-q10",
+      "topic": "Negative Zahlen",
+      "type": "number_input",
+      "question": "Wie viel ist −2 + 5?",
+      "correctAnswer": "3",
+      "explanation": "Starte bei −2 und gehe 5 Schritte nach rechts: −2 → −1 → 0 → 1 → 2 → 3. [English: Move right on the number line.]",
+      "hints": ["Zähle auf der Zahlengeraden nach rechts."]
+    }
+  ]
+}

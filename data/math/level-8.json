@@ -1,0 +1,102 @@
+{
+  "level": 8,
+  "subject": "math",
+  "title": "Gemischte Textaufgaben mit Brüchen und Prozenten",
+  "description": "Schwer — Alltagsaufgaben, in denen du Brüche und Prozente kombinieren musst.",
+  "questions": [
+    {
+      "id": "math-l8-q1",
+      "topic": "Bruch und Einheit",
+      "type": "number_input",
+      "question": "Sarah kauft 3/4 Kilogramm Äpfel. Wie viele Gramm sind das?",
+      "correctAnswer": "750",
+      "explanation": "1 kg = 1000 g. 3/4 von 1000 g = (1000 : 4) · 3 = 250 · 3 = 750 g. [English: 3/4 of 1 kg = 750 g.]",
+      "hints": ["Rechne zuerst kg in g um."]
+    },
+    {
+      "id": "math-l8-q2",
+      "topic": "Bruch von einer Zahl",
+      "type": "number_input",
+      "question": "Ein Buch hat 240 Seiten. Lara hat 3/5 davon schon gelesen. Wie viele Seiten hat sie gelesen?",
+      "correctAnswer": "144",
+      "explanation": "240 : 5 = 48. 48 · 3 = 144 Seiten. [English: Divide by 5, multiply by 3.]",
+      "hints": ["Erst durch den Nenner teilen, dann mit dem Zähler multiplizieren."]
+    },
+    {
+      "id": "math-l8-q3",
+      "topic": "Preiserhöhung",
+      "type": "multiple_choice",
+      "question": "Ein T-Shirt kostet 25 €. Der Preis steigt um 20 %. Was kostet es jetzt?",
+      "options": ["20 €", "27 €", "30 €", "35 €"],
+      "correctAnswer": "30 €",
+      "explanation": "20 % von 25 € = 5 €. Neuer Preis: 25 + 5 = 30 €. [English: Add 20% increase: 25 + 5 = 30.]",
+      "hints": ["Erst den Aufschlag berechnen, dann addieren."]
+    },
+    {
+      "id": "math-l8-q4",
+      "topic": "Halbe Menge",
+      "type": "number_input",
+      "question": "Ein Rezept braucht 250 g Zucker. Du möchtest nur die halbe Menge backen. Wie viele Gramm Zucker brauchst du?",
+      "correctAnswer": "125",
+      "explanation": "Die Hälfte von 250 g ist 250 : 2 = 125 g. [English: Half of 250 g = 125 g.]",
+      "hints": ["250 durch 2 teilen."]
+    },
+    {
+      "id": "math-l8-q5",
+      "topic": "Prozent von einer Zahl",
+      "type": "number_input",
+      "question": "Von 40 Schülern sind 15 % krank. Wie viele Schüler sind das?",
+      "correctAnswer": "6",
+      "explanation": "15 % von 40 = 0,15 · 40 = 6. Also sind 6 Schüler krank. [English: 15% of 40 = 6.]",
+      "hints": ["15 : 100 · 40."]
+    },
+    {
+      "id": "math-l8-q6",
+      "topic": "Bruch vom Taschengeld",
+      "type": "number_input",
+      "question": "Tim bekommt 20 € Taschengeld und spart davon 2/5. Wie viel Euro spart er?",
+      "correctAnswer": "8",
+      "explanation": "20 : 5 = 4. 4 · 2 = 8. Tim spart 8 €. [English: 2/5 of 20 = 8.]",
+      "hints": ["Teile durch den Nenner, mal den Zähler."]
+    },
+    {
+      "id": "math-l8-q7",
+      "topic": "Rabatt",
+      "type": "multiple_choice",
+      "question": "Ein Handy kostet 300 €. Es gibt jetzt 30 % Rabatt. Was kostet es nach dem Rabatt?",
+      "options": ["90 €", "150 €", "210 €", "270 €"],
+      "correctAnswer": "210 €",
+      "explanation": "30 % von 300 € = 90 €. 300 − 90 = 210 €. [English: 30% off 300 = 210.]",
+      "hints": ["Rabattbetrag ausrechnen, dann abziehen."]
+    },
+    {
+      "id": "math-l8-q8",
+      "topic": "Anteil berechnen",
+      "type": "number_input",
+      "question": "Ein Schwimmbecken fasst 3000 Liter Wasser. Es ist zu 3/4 gefüllt. Wie viele Liter sind drin?",
+      "correctAnswer": "2250",
+      "explanation": "3000 : 4 = 750. 750 · 3 = 2250 Liter. [English: 3/4 of 3000 L = 2250 L.]",
+      "hints": ["Teile durch 4, dann mal 3."]
+    },
+    {
+      "id": "math-l8-q9",
+      "topic": "Prozentanteile zusammen",
+      "type": "multiple_choice",
+      "question": "Eine Klasse hat 28 Schüler. 50 % fahren mit dem Bus, 25 % gehen zu Fuß, der Rest fährt mit dem Fahrrad. Wie viele Schüler fahren mit dem Fahrrad?",
+      "options": ["5", "7", "10", "14"],
+      "correctAnswer": "7",
+      "explanation": "Bus + Fuß = 50 % + 25 % = 75 %. Rest: 100 % − 75 % = 25 % für das Fahrrad. 25 % von 28 = 7. [English: Remaining 25% × 28 = 7.]",
+      "hints": ["Zuerst den Restanteil in Prozent berechnen."]
+    },
+    {
+      "id": "math-l8-q10",
+      "topic": "Brüche addieren + Rest",
+      "type": "multiple_choice",
+      "question": "In einer Schachtel sind 3/8 der Kugeln rot, 1/2 sind blau, der Rest ist grün. Welcher Anteil ist grün?",
+      "options": ["1/8", "2/8", "3/8", "1/4"],
+      "correctAnswer": "1/8",
+      "explanation": "1/2 = 4/8. Rot + Blau = 3/8 + 4/8 = 7/8. Rest grün: 8/8 − 7/8 = 1/8. [English: Convert halves to 8ths, add, subtract from 1.]",
+      "hints": ["Bring alles auf Achtel."]
+    }
+  ]
+}

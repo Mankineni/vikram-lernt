@@ -1,0 +1,121 @@
+{
+  "level": 10,
+  "subject": "german",
+  "title": "Wortfamilien, Wortbildung und Grammatik-Review",
+  "description": "Experte — Wortstämme, Komposita, Ableitungen und fortgeschrittene Grammatik.",
+  "questions": [
+    {
+      "id": "german-l10-q1",
+      "topic": "Wortfamilie",
+      "type": "multiple_choice",
+      "question": "Welches Wort gehört zur gleichen Wortfamilie wie 'Spiel'?",
+      "options": ["Zeit", "spielen", "Zug", "Hund"],
+      "correctAnswer": "spielen",
+      "explanation": "Eine Wortfamilie teilt denselben Wortstamm. 'Spiel' und 'spielen' haben den Stamm 'spiel-'. [English: Word family = same root.]",
+      "hints": ["Suche den gemeinsamen Wortstamm."]
+    },
+    {
+      "id": "german-l10-q2",
+      "topic": "Komposita",
+      "type": "multiple_choice",
+      "question": "Wie nennt man zusammengesetzte Nomen wie 'Haustür'?",
+      "options": ["Komposita", "Synonyme", "Verben", "Präfixe"],
+      "correctAnswer": "Komposita",
+      "explanation": "Zusammengesetzte Nomen heißen Komposita. 'Haustür' = Haus + Tür. [English: Compound nouns = Komposita.]",
+      "hints": ["Lateinischer Begriff für 'zusammengesetzt'."]
+    },
+    {
+      "id": "german-l10-q3",
+      "topic": "Wortfamilie erkennen",
+      "type": "multiple_choice",
+      "question": "Welche Gruppe bildet eine Wortfamilie?",
+      "options": [
+        "Fahrt, Fahrer, Fahrzeug",
+        "laufen, gehen, rennen",
+        "Haus, Heim, Wohnung",
+        "schnell, flott, rasch"
+      ],
+      "correctAnswer": "Fahrt, Fahrer, Fahrzeug",
+      "explanation": "Alle drei Wörter enthalten den Stamm 'fahr-'. Die anderen Gruppen sind Synonyme (gleiche Bedeutung). [English: Same stem = same family.]",
+      "hints": ["Gemeinsamer Stamm, nicht gleiche Bedeutung."]
+    },
+    {
+      "id": "german-l10-q4",
+      "topic": "Kompositum bilden",
+      "type": "text_input",
+      "question": "Bilde aus 'Sommer' und 'Ferien' ein Kompositum. Schreibe das Wort.",
+      "correctAnswer": "Sommerferien",
+      "explanation": "Ein Kompositum entsteht durch Zusammensetzen ohne Leerzeichen: Sommer + Ferien = Sommerferien. [English: Compound: Sommerferien.]",
+      "hints": ["Ohne Leerzeichen und ohne Bindestrich."]
+    },
+    {
+      "id": "german-l10-q5",
+      "topic": "Präfix",
+      "type": "multiple_choice",
+      "question": "Welches Präfix verändert 'laden' zu 'abladen'?",
+      "options": ["an", "auf", "ab", "ent"],
+      "correctAnswer": "ab",
+      "explanation": "Das Präfix 'ab-' verändert die Bedeutung: abladen = etwas herunterladen / entfernen. [English: Prefix 'ab-' modifies meaning.]",
+      "hints": ["Was steht vor 'laden'?"]
+    },
+    {
+      "id": "german-l10-q6",
+      "topic": "Suffix Nominalisierung",
+      "type": "multiple_choice",
+      "question": "Welches Suffix macht aus dem Adjektiv 'schön' das Nomen 'Schön___'?",
+      "options": ["-keit", "-heit", "-lich", "-bar"],
+      "correctAnswer": "-heit",
+      "explanation": "'Schönheit' = schön + -heit. Das Suffix -heit bildet Nomen aus Adjektiven. [English: Suffix -heit turns adjective into noun.]",
+      "hints": ["Suffix mit 'h' am Anfang."]
+    },
+    {
+      "id": "german-l10-q7",
+      "topic": "Plural",
+      "type": "text_input",
+      "question": "Wie lautet der Plural von 'Kind'?",
+      "correctAnswer": "Kinder",
+      "explanation": "Unregelmäßiger Plural: Kind → Kinder (mit Endung -er). [English: Plural 'Kinder'.]",
+      "hints": ["Plural mit -er und Umlaut-Änderung."]
+    },
+    {
+      "id": "german-l10-q8",
+      "topic": "Wortstamm finden",
+      "type": "multiple_choice",
+      "question": "Welches Verb gehört zur Wortfamilie von 'Schreibtisch'?",
+      "options": ["lesen", "schreiben", "schlafen", "essen"],
+      "correctAnswer": "schreiben",
+      "explanation": "Der Stamm 'schreib-' ist sowohl in 'Schreibtisch' als auch in 'schreiben' enthalten. [English: Same stem 'schreib-' in both words.]",
+      "hints": ["Welcher Stamm steckt in 'Schreibtisch'?"]
+    },
+    {
+      "id": "german-l10-q9",
+      "topic": "Passiv erkennen",
+      "type": "multiple_choice",
+      "question": "Welcher Satz enthält ein Passivverb?",
+      "options": [
+        "Die Blumen blühen.",
+        "Die Blumen werden gegossen.",
+        "Die Blumen sind schön.",
+        "Die Blumen stehen im Garten."
+      ],
+      "correctAnswer": "Die Blumen werden gegossen.",
+      "explanation": "'werden gegossen' = werden + Partizip II → Vorgangspassiv. [English: werden + past participle = passive.]",
+      "hints": ["Suche 'werden' + Partizip II."]
+    },
+    {
+      "id": "german-l10-q10",
+      "topic": "Konjunktiv I",
+      "type": "multiple_choice",
+      "question": "Welcher Satz enthält einen Konjunktiv I (indirekte Rede)?",
+      "options": [
+        "Paul kommt morgen.",
+        "Paul sagt, er komme morgen.",
+        "Paul kam gestern.",
+        "Paul wird morgen kommen."
+      ],
+      "correctAnswer": "Paul sagt, er komme morgen.",
+      "explanation": "Die Form 'komme' (statt 'kommt') ist der Konjunktiv I und typisch für die indirekte Rede. [English: 'komme' (subj. I) signals indirect speech.]",
+      "hints": ["Achte auf die Form nach 'er'."]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "level": 5,
+  "subject": "german",
+  "title": "Satzglieder — Subjekt, Prädikat, Objekte",
+  "description": "Fortgeschritten — Satzglieder erkennen und bestimmen.",
+  "questions": [
+    {
+      "id": "german-l5-q1",
+      "topic": "Subjekt finden",
+      "type": "multiple_choice",
+      "question": "Was ist das Subjekt? — 'Der Hund bellt laut.'",
+      "options": ["Der Hund", "bellt", "laut", "kein Subjekt"],
+      "correctAnswer": "Der Hund",
+      "explanation": "Das Subjekt antwortet auf 'wer oder was?' und steht im Nominativ. Hier: 'Der Hund'. [English: Subject = who does the action.]",
+      "hints": ["Wer bellt?"]
+    },
+    {
+      "id": "german-l5-q2",
+      "topic": "Prädikat finden",
+      "type": "multiple_choice",
+      "question": "Was ist das Prädikat? — 'Anna liest ein Buch.'",
+      "options": ["Anna", "liest", "ein Buch", "alle Wörter"],
+      "correctAnswer": "liest",
+      "explanation": "Das Prädikat ist das Verb im Satz — die Handlung: 'liest'. [English: Predicate = verb.]",
+      "hints": ["Das Prädikat ist das Verb."]
+    },
+    {
+      "id": "german-l5-q3",
+      "topic": "Akkusativobjekt",
+      "type": "multiple_choice",
+      "question": "Welches Satzglied ist das Objekt? — 'Paul isst einen Apfel.'",
+      "options": ["Paul", "isst", "einen Apfel", "keins"],
+      "correctAnswer": "einen Apfel",
+      "explanation": "Das Objekt ist das, worauf sich die Handlung bezieht. Frage: 'Was isst Paul?' — 'einen Apfel'. [English: Object = what's affected by the action.]",
+      "hints": ["Frage 'was isst Paul?'"]
+    },
+    {
+      "id": "german-l5-q4",
+      "topic": "Subjekt finden",
+      "type": "text_input",
+      "question": "Schreibe das Subjekt des Satzes: 'Die Kinder spielen im Garten.'",
+      "correctAnswer": "Die Kinder",
+      "explanation": "'Wer spielt?' → 'Die Kinder' ist das Subjekt. [English: Subject = 'Die Kinder'.]",
+      "hints": ["Wer tut etwas?"]
+    },
+    {
+      "id": "german-l5-q5",
+      "topic": "Frage zum Satzglied",
+      "type": "multiple_choice",
+      "question": "Welches Satzglied beantwortet die Frage 'wen oder was?'",
+      "options": ["Subjekt", "Prädikat", "Akkusativobjekt", "Dativobjekt"],
+      "correctAnswer": "Akkusativobjekt",
+      "explanation": "Das Akkusativobjekt antwortet auf 'wen oder was?' und steht im 4. Fall. [English: Accusative object answers 'whom/what?'.]",
+      "hints": ["Direkt getroffen von der Handlung."]
+    },
+    {
+      "id": "german-l5-q6",
+      "topic": "Prädikat finden",
+      "type": "text_input",
+      "question": "Schreibe das Prädikat des Satzes: 'Mein Bruder kauft eine Pizza.'",
+      "correctAnswer": "kauft",
+      "explanation": "Das Verb ist 'kauft' — das Prädikat des Satzes. [English: Verb = predicate.]",
+      "hints": ["Das Verb."]
+    },
+    {
+      "id": "german-l5-q7",
+      "topic": "Satzglieder zählen",
+      "type": "multiple_choice",
+      "question": "Wie viele Satzglieder hat dieser Satz? — 'Der Lehrer erklärt den Schülern die Aufgabe.'",
+      "options": ["2", "3", "4", "5"],
+      "correctAnswer": "4",
+      "explanation": "Vier Satzglieder: Subjekt (Der Lehrer), Prädikat (erklärt), Dativobjekt (den Schülern), Akkusativobjekt (die Aufgabe). [English: 4 parts: subject, verb, dative, accusative.]",
+      "hints": ["Subjekt, Prädikat, und zwei Objekte."]
+    },
+    {
+      "id": "german-l5-q8",
+      "topic": "Dativobjekt",
+      "type": "multiple_choice",
+      "question": "Welches Satzglied ist 'dem Kind'? — 'Mama liest dem Kind ein Märchen.'",
+      "options": ["Subjekt", "Prädikat", "Dativobjekt", "Akkusativobjekt"],
+      "correctAnswer": "Dativobjekt",
+      "explanation": "'Wem liest Mama?' — 'dem Kind' → Dativobjekt (indirektes Objekt). [English: Indirect object = dative.]",
+      "hints": ["Frage 'wem?'"]
+    },
+    {
+      "id": "german-l5-q9",
+      "topic": "Adverbiale Bestimmung",
+      "type": "multiple_choice",
+      "question": "Welches Satzglied ist 'im Garten'? — 'Die Kinder spielen im Garten.'",
+      "options": ["Subjekt", "Objekt", "Adverbiale Bestimmung des Ortes", "Prädikat"],
+      "correctAnswer": "Adverbiale Bestimmung des Ortes",
+      "explanation": "'Wo spielen sie?' → 'im Garten' ist eine adverbiale Bestimmung des Ortes (Ortsangabe). [English: Adverbial of place.]",
+      "hints": ["Die Frage 'wo?' beantwortet eine Ortsangabe."]
+    },
+    {
+      "id": "german-l5-q10",
+      "topic": "Akkusativobjekt erkennen",
+      "type": "multiple_choice",
+      "question": "Welcher Satz enthält ein Akkusativobjekt?",
+      "options": [
+        "Er schläft.",
+        "Er hilft dem Freund.",
+        "Er liest einen Brief.",
+        "Er wohnt in Berlin."
+      ],
+      "correctAnswer": "Er liest einen Brief.",
+      "explanation": "'einen Brief' beantwortet 'wen/was?' → Akkusativobjekt. Satz 2 hat ein Dativobjekt, Satz 1 kein Objekt. [English: 'einen Brief' is accusative.]",
+      "hints": ["Frage 'wen oder was?' nach dem Verb."]
+    }
+  ]
+}

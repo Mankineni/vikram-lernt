@@ -1,0 +1,102 @@
+{
+  "level": 3,
+  "subject": "german",
+  "title": "Präsens und Präteritum",
+  "description": "Mittel — Verben in Gegenwart und einfacher Vergangenheit konjugieren.",
+  "questions": [
+    {
+      "id": "german-l3-q1",
+      "topic": "Präsens 1. Person",
+      "type": "text_input",
+      "question": "Konjugiere 'gehen' im Präsens, 1. Person Singular: 'Ich ___.'",
+      "correctAnswer": "gehe",
+      "explanation": "gehen → ich gehe. Regelmäßig: Stamm 'geh-' + Endung '-e'. [English: Present tense 'I go' = ich gehe.]",
+      "hints": ["Endung der 1. Person Singular ist -e."]
+    },
+    {
+      "id": "german-l3-q2",
+      "topic": "Präsens unregelmäßig",
+      "type": "text_input",
+      "question": "Konjugiere 'sein' im Präsens für 'er': 'Er ___ fleißig.'",
+      "correctAnswer": "ist",
+      "explanation": "Das Verb 'sein' ist unregelmäßig: ich bin, du bist, er/sie/es ist. [English: 'sein' is irregular: er ist.]",
+      "hints": ["'sein' folgt keiner Regel."]
+    },
+    {
+      "id": "german-l3-q3",
+      "topic": "Präteritum 1. Person Plural",
+      "type": "text_input",
+      "question": "Konjugiere 'lernen' im Präteritum, 1. Person Plural: 'Wir ___ viel.'",
+      "correctAnswer": "lernten",
+      "explanation": "Regelmäßiges Verb: Stamm + -te + Personalendung. lernen → wir lernten. [English: Regular past: stem+te+ending.]",
+      "hints": ["Regelmäßig: Stamm + -te + -n."]
+    },
+    {
+      "id": "german-l3-q4",
+      "topic": "Präteritum von 'haben'",
+      "type": "multiple_choice",
+      "question": "Welche Form ist das Präteritum von 'haben' (ich)?",
+      "options": ["habe", "hat", "hatte", "gehabt"],
+      "correctAnswer": "hatte",
+      "explanation": "ich hatte (Präteritum). 'habe'/'hat' sind Präsens; 'gehabt' ist Partizip II. [English: 'hatte' = had, simple past.]",
+      "hints": ["Präteritum heißt: einfache Vergangenheit."]
+    },
+    {
+      "id": "german-l3-q5",
+      "topic": "Präsens 2. Person Singular",
+      "type": "text_input",
+      "question": "Konjugiere 'spielen' im Präsens für 'du': 'Du ___.'",
+      "correctAnswer": "spielst",
+      "explanation": "2. Person Singular: Stamm 'spiel-' + Endung '-st'. Also 'du spielst'. [English: 'du' ending is -st.]",
+      "hints": ["Endung der 2. Person Singular ist -st."]
+    },
+    {
+      "id": "german-l3-q6",
+      "topic": "Präteritum unregelmäßig",
+      "type": "multiple_choice",
+      "question": "Welches ist die Präteritum-Form von 'gehen' (ich)?",
+      "options": ["gehte", "ging", "gegangen", "gehen"],
+      "correctAnswer": "ging",
+      "explanation": "'gehen' ist ein starkes Verb: ich ging. 'gegangen' ist das Partizip II. [English: Irregular: gehen → ging.]",
+      "hints": ["'gehen' ist ein unregelmäßiges (starkes) Verb."]
+    },
+    {
+      "id": "german-l3-q7",
+      "topic": "Präsens 2. Person Plural",
+      "type": "text_input",
+      "question": "Konjugiere 'machen' im Präsens für 'ihr': 'Ihr ___.'",
+      "correctAnswer": "macht",
+      "explanation": "2. Person Plural: Stamm 'mach-' + Endung '-t'. Also 'ihr macht'. [English: 'ihr' ending is -t.]",
+      "hints": ["Endung der 2. Person Plural ist -t."]
+    },
+    {
+      "id": "german-l3-q8",
+      "topic": "Tempus erkennen",
+      "type": "multiple_choice",
+      "question": "In welcher Zeitform steht der Satz 'Er las ein Buch'?",
+      "options": ["Präsens", "Präteritum", "Perfekt", "Futur I"],
+      "correctAnswer": "Präteritum",
+      "explanation": "'las' ist die einfache Vergangenheitsform von 'lesen'. Also Präteritum. (lesen → las → gelesen) [English: 'las' = past simple of lesen.]",
+      "hints": ["Es ist Vergangenheit ohne Hilfsverb."]
+    },
+    {
+      "id": "german-l3-q9",
+      "topic": "Präteritum 3. Person Singular",
+      "type": "text_input",
+      "question": "Konjugiere 'kaufen' im Präteritum für 'sie': 'Sie ___ ein Kleid.'",
+      "correctAnswer": "kaufte",
+      "explanation": "Regelmäßig: kaufen → sie kaufte. Stamm 'kauf-' + '-te'. [English: 'kaufte' = bought.]",
+      "hints": ["Stamm + -te."]
+    },
+    {
+      "id": "german-l3-q10",
+      "topic": "Präsens 1. Person Plural",
+      "type": "multiple_choice",
+      "question": "Welche Präsens-Form ist richtig? — 'Wir ___ schnell.' (laufen)",
+      "options": ["laufen", "laufst", "läuft", "lauft"],
+      "correctAnswer": "laufen",
+      "explanation": "'Wir' nimmt die Grundform: wir laufen. (Bei 'er' wäre es 'läuft' mit Umlaut.) [English: 'wir' = infinitive form.]",
+      "hints": ["'wir' + Verb = wie die Grundform."]
+    }
+  ]
+}

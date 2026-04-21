@@ -1,0 +1,107 @@
+{
+  "level": 1,
+  "subject": "german",
+  "title": "Artikel und Nominativ/Akkusativ",
+  "description": "Leicht — bestimmter und unbestimmter Artikel im 1. und 4. Fall.",
+  "questions": [
+    {
+      "id": "german-l1-q1",
+      "topic": "Artikel Neutrum",
+      "type": "multiple_choice",
+      "question": "Welcher Artikel passt? — '___ Buch liegt auf dem Tisch.'",
+      "options": ["Der", "Die", "Das", "Den"],
+      "correctAnswer": "Das",
+      "explanation": "'Buch' ist sächlich (Neutrum). Im Nominativ heißt es 'das Buch'. [English: 'Buch' is neuter → das.]",
+      "hints": ["Buch ist Neutrum (sächlich)."]
+    },
+    {
+      "id": "german-l1-q2",
+      "topic": "Artikel Femininum",
+      "type": "multiple_choice",
+      "question": "Welcher Artikel passt? — '___ Blume blüht im Garten.'",
+      "options": ["Der", "Die", "Das", "Dem"],
+      "correctAnswer": "Die",
+      "explanation": "'Blume' ist weiblich (Femininum). Im Nominativ: 'die Blume'. [English: 'Blume' is feminine → die.]",
+      "hints": ["Blume ist Femininum."]
+    },
+    {
+      "id": "german-l1-q3",
+      "topic": "Artikel Maskulinum",
+      "type": "multiple_choice",
+      "question": "Welcher Artikel passt? — '___ Hund bellt laut.'",
+      "options": ["Der", "Die", "Das", "Des"],
+      "correctAnswer": "Der",
+      "explanation": "'Hund' ist männlich (Maskulinum). Im Nominativ: 'der Hund'. [English: 'Hund' is masculine → der.]",
+      "hints": ["Hund ist Maskulinum."]
+    },
+    {
+      "id": "german-l1-q4",
+      "topic": "Akkusativ Maskulinum",
+      "type": "multiple_choice",
+      "question": "Ergänze im Akkusativ: 'Ich sehe ___ Mann.'",
+      "options": ["der", "den", "dem", "des"],
+      "correctAnswer": "den",
+      "explanation": "Im Akkusativ wird aus 'der' → 'den' (nur Maskulinum ändert sich). 'sehen' fragt nach 'wen?' → Akkusativ. [English: Masculine changes der→den in accusative.]",
+      "hints": ["Maskulinum ändert sich im Akkusativ."]
+    },
+    {
+      "id": "german-l1-q5",
+      "topic": "Fall erkennen",
+      "type": "multiple_choice",
+      "question": "In welchem Fall steht 'ein Buch' im Satz 'Der Junge liest ein Buch'?",
+      "options": ["Nominativ (wer?)", "Akkusativ (wen/was?)", "Dativ (wem?)", "Genitiv (wessen?)"],
+      "correctAnswer": "Akkusativ (wen/was?)",
+      "explanation": "Frage: 'Was liest der Junge?' — 'ein Buch'. Das direkte Objekt steht im Akkusativ. [English: Direct object = accusative.]",
+      "hints": ["Frage 'wen oder was?' nach dem Verb."]
+    },
+    {
+      "id": "german-l1-q6",
+      "topic": "Unbestimmter Artikel Akkusativ",
+      "type": "text_input",
+      "question": "Ergänze den richtigen unbestimmten Artikel (männlich, Akkusativ): 'Ich habe ___ Apfel.'",
+      "correctAnswer": "einen",
+      "explanation": "Maskulinum Akkusativ mit unbestimmtem Artikel: 'einen'. Also 'einen Apfel'. [English: Masc. accusative of 'ein' = einen.]",
+      "hints": ["'ein' bekommt im Akkusativ Maskulinum ein -en."]
+    },
+    {
+      "id": "german-l1-q7",
+      "topic": "Akkusativ Femininum",
+      "type": "multiple_choice",
+      "question": "Ergänze: 'Die Katze fängt ___ Maus.'",
+      "options": ["die", "den", "das", "dem"],
+      "correctAnswer": "die",
+      "explanation": "Femininum bleibt im Akkusativ 'die'. Also 'die Maus'. [English: Feminine 'die' stays the same in accusative.]",
+      "hints": ["Feminin ändert sich zwischen Nominativ und Akkusativ nicht."]
+    },
+    {
+      "id": "german-l1-q8",
+      "topic": "Artikel Neutrum Nominativ",
+      "type": "multiple_choice",
+      "question": "Welcher Artikel fehlt? — '___ Kind spielt.'",
+      "options": ["Der", "Die", "Das", "Dem"],
+      "correctAnswer": "Das",
+      "explanation": "'Kind' ist Neutrum (sächlich). Im Nominativ: 'das Kind'. [English: 'Kind' is neuter → das.]",
+      "hints": ["Kind ist Neutrum."]
+    },
+    {
+      "id": "german-l1-q9",
+      "topic": "Bestimmter Artikel Akkusativ",
+      "type": "multiple_choice",
+      "question": "Ergänze im Akkusativ: 'Sie kauft ___ Apfel.'",
+      "options": ["der", "den", "dem", "des"],
+      "correctAnswer": "den",
+      "explanation": "Akkusativ maskulin mit bestimmtem Artikel: 'den Apfel'. [English: den = masculine accusative.]",
+      "hints": ["Maskulinum + Akkusativ → 'den'."]
+    },
+    {
+      "id": "german-l1-q10",
+      "topic": "Nominativ im Satz",
+      "type": "multiple_choice",
+      "question": "Welcher Satzteil steht im Nominativ? — 'Der Lehrer erklärt die Aufgabe.'",
+      "options": ["Der Lehrer", "die Aufgabe", "erklärt", "keine"],
+      "correctAnswer": "Der Lehrer",
+      "explanation": "Das Subjekt des Satzes — 'wer erklärt?' — steht immer im Nominativ. Also 'Der Lehrer'. [English: Subject = nominative.]",
+      "hints": ["Frage 'wer oder was?' vor dem Verb."]
+    }
+  ]
+}

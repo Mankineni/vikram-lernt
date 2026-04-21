@@ -1,0 +1,102 @@
+{
+  "level": 2,
+  "subject": "math",
+  "title": "Dezimalzahlen und Einheiten umrechnen",
+  "description": "Leicht — Rechnen mit Kommazahlen und Umrechnen von Längen, Gewicht, Zeit.",
+  "questions": [
+    {
+      "id": "math-l2-q1",
+      "topic": "Dezimalzahlen addieren",
+      "type": "number_input",
+      "question": "Wie viel ist 2,5 + 3,8?",
+      "correctAnswer": "6,3",
+      "explanation": "Kommas untereinander schreiben und stellenweise addieren. Zehntel: 5 + 8 = 13 (also 3, Übertrag 1). Einer: 2 + 3 + 1 = 6. Ergebnis: 6,3. [English: Line up decimals; add columns with carry.]",
+      "hints": ["Schreibe die Kommas untereinander."]
+    },
+    {
+      "id": "math-l2-q2",
+      "topic": "Multiplikation mit 10",
+      "type": "multiple_choice",
+      "question": "Wie viel ist 4,2 · 10?",
+      "options": ["0,42", "4,20", "42", "420"],
+      "correctAnswer": "42",
+      "explanation": "Mal 10 verschiebt das Komma eine Stelle nach rechts: 4,2 → 42. [English: ×10 shifts the decimal one place right.]",
+      "hints": ["Das Komma rückt eine Stelle weiter."]
+    },
+    {
+      "id": "math-l2-q3",
+      "topic": "Längen umrechnen",
+      "type": "number_input",
+      "question": "Wie viele Zentimeter sind 3 Meter?",
+      "correctAnswer": "300",
+      "explanation": "1 m = 100 cm. Also 3 m = 3 · 100 = 300 cm. [English: 1 m = 100 cm; multiply.]",
+      "hints": ["1 m = 100 cm."]
+    },
+    {
+      "id": "math-l2-q4",
+      "topic": "Gewicht umrechnen",
+      "type": "number_input",
+      "question": "Wie viele Kilogramm sind 2500 Gramm? Gib die Antwort als Dezimalzahl.",
+      "correctAnswer": "2,5",
+      "explanation": "1 kg = 1000 g. Teile durch 1000: 2500 : 1000 = 2,5 kg. Komma drei Stellen nach links. [English: Divide grams by 1000.]",
+      "hints": ["1 kg = 1000 g."]
+    },
+    {
+      "id": "math-l2-q5",
+      "topic": "Dezimalzahlen addieren",
+      "type": "multiple_choice",
+      "question": "Wie viel ist 0,5 + 0,25?",
+      "options": ["0,30", "0,7", "0,75", "1,5"],
+      "correctAnswer": "0,75",
+      "explanation": "Denke in Cent: 50 Cent + 25 Cent = 75 Cent = 0,75 €. [English: Think of 50¢ + 25¢ = 75¢.]",
+      "hints": ["Stelle dir die Zahlen als Euro-Beträge vor."]
+    },
+    {
+      "id": "math-l2-q6",
+      "topic": "Dezimalzahlen subtrahieren",
+      "type": "number_input",
+      "question": "Wie viel ist 5,6 − 1,9?",
+      "correctAnswer": "3,7",
+      "explanation": "Rechne in zwei Schritten: 5,6 − 1 = 4,6, dann 4,6 − 0,9 = 3,7. [English: Subtract whole part, then decimal part.]",
+      "hints": ["Erst ganze Zahl abziehen, dann den Nachkomma-Rest."]
+    },
+    {
+      "id": "math-l2-q7",
+      "topic": "Zeit umrechnen",
+      "type": "number_input",
+      "question": "Wie viele Minuten sind 2 Stunden?",
+      "correctAnswer": "120",
+      "explanation": "1 h = 60 min. Also 2 h = 2 · 60 = 120 min. [English: 1 hour = 60 minutes.]",
+      "hints": ["Eine Stunde hat 60 Minuten."]
+    },
+    {
+      "id": "math-l2-q8",
+      "topic": "Längen umrechnen",
+      "type": "multiple_choice",
+      "question": "Wie viele Meter sind 1,25 km?",
+      "options": ["12,5", "125", "1250", "12500"],
+      "correctAnswer": "1250",
+      "explanation": "1 km = 1000 m. Also 1,25 · 1000 = 1250 m. Das Komma rückt drei Stellen nach rechts. [English: 1 km = 1000 m; shift decimal 3 right.]",
+      "hints": ["Komma drei Stellen nach rechts verschieben."]
+    },
+    {
+      "id": "math-l2-q9",
+      "topic": "Dezimalzahlen multiplizieren",
+      "type": "number_input",
+      "question": "Wie viel ist 0,3 · 4?",
+      "correctAnswer": "1,2",
+      "explanation": "Rechne zuerst ohne Komma: 3 · 4 = 12. Da 0,3 eine Nachkommastelle hat, hat auch die Antwort eine Nachkommastelle: 1,2. [English: Multiply digits, then reinsert the decimal.]",
+      "hints": ["Rechne zuerst 3 · 4 und setze dann das Komma."]
+    },
+    {
+      "id": "math-l2-q10",
+      "topic": "Textaufgabe Dezimalzahlen",
+      "type": "multiple_choice",
+      "question": "Eine Flasche enthält 1,5 Liter Saft. Es werden 3 Gläser à 0,25 Liter eingeschenkt. Wie viel Saft bleibt in der Flasche?",
+      "options": ["0,25 l", "0,5 l", "0,75 l", "1 l"],
+      "correctAnswer": "0,75 l",
+      "explanation": "Ausgeschenkt: 3 · 0,25 = 0,75 l. Rest: 1,5 − 0,75 = 0,75 l. [English: 0.75 l poured out, 0.75 l remains.]",
+      "hints": ["Erst alle Gläser zusammenrechnen, dann abziehen."]
+    }
+  ]
+}

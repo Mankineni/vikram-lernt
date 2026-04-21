@@ -1,0 +1,107 @@
+{
+  "level": 2,
+  "subject": "german",
+  "title": "Alle vier Fälle — Nominativ, Genitiv, Dativ, Akkusativ",
+  "description": "Leicht — die vier Fälle unterscheiden und richtig anwenden.",
+  "questions": [
+    {
+      "id": "german-l2-q1",
+      "topic": "Fragewort Nominativ",
+      "type": "multiple_choice",
+      "question": "Welcher Fall antwortet auf die Frage 'wer oder was?'",
+      "options": ["Nominativ", "Genitiv", "Dativ", "Akkusativ"],
+      "correctAnswer": "Nominativ",
+      "explanation": "Der 1. Fall (Nominativ) fragt 'wer oder was?' und steht beim Subjekt. [English: Nominative = who/what.]",
+      "hints": ["Der erste Fall."]
+    },
+    {
+      "id": "german-l2-q2",
+      "topic": "Fragewort Genitiv",
+      "type": "multiple_choice",
+      "question": "Welcher Fall antwortet auf die Frage 'wessen?'",
+      "options": ["Nominativ", "Genitiv", "Dativ", "Akkusativ"],
+      "correctAnswer": "Genitiv",
+      "explanation": "Der 2. Fall (Genitiv) fragt 'wessen?'. Beispiel: 'das Buch des Lehrers'. [English: Genitive = whose.]",
+      "hints": ["Der Besitz-Fall."]
+    },
+    {
+      "id": "german-l2-q3",
+      "topic": "Fragewort Dativ",
+      "type": "multiple_choice",
+      "question": "Welcher Fall antwortet auf die Frage 'wem?'",
+      "options": ["Nominativ", "Genitiv", "Dativ", "Akkusativ"],
+      "correctAnswer": "Dativ",
+      "explanation": "Der 3. Fall (Dativ) fragt 'wem?'. Beispiel: 'Ich helfe dem Mann.' [English: Dative = to whom.]",
+      "hints": ["Wem oder was gebe ich etwas?"]
+    },
+    {
+      "id": "german-l2-q4",
+      "topic": "Dativ Maskulinum",
+      "type": "text_input",
+      "question": "Ergänze den bestimmten Artikel im Dativ (männlich): 'Ich helfe ___ Mann.'",
+      "correctAnswer": "dem",
+      "explanation": "Maskulinum im Dativ: 'dem'. Das Verb 'helfen' verlangt immer den Dativ. [English: 'helfen' takes dative: dem Mann.]",
+      "hints": ["helfen + Dativ."]
+    },
+    {
+      "id": "german-l2-q5",
+      "topic": "Genitiv Maskulinum",
+      "type": "multiple_choice",
+      "question": "Ergänze im Genitiv: 'Das ist das Fahrrad ___ Vaters.'",
+      "options": ["der", "den", "dem", "des"],
+      "correctAnswer": "des",
+      "explanation": "Maskulinum Genitiv: 'des'. Das Nomen bekommt oft ein -s angehängt ('des Vaters'). [English: Masc. genitive = des + -s on noun.]",
+      "hints": ["Frage 'wessen Fahrrad?'"]
+    },
+    {
+      "id": "german-l2-q6",
+      "topic": "Akkusativ im Satz",
+      "type": "multiple_choice",
+      "question": "Was steht im Akkusativ? — 'Die Mutter liebt ihren Sohn.'",
+      "options": ["Die Mutter", "ihren Sohn", "liebt", "keiner"],
+      "correctAnswer": "ihren Sohn",
+      "explanation": "Frage: 'Wen liebt die Mutter?' — 'ihren Sohn'. Das direkte Objekt steht im Akkusativ. [English: Object of 'lieben' is accusative.]",
+      "hints": ["Frage 'wen oder was?' nach dem Verb."]
+    },
+    {
+      "id": "german-l2-q7",
+      "topic": "Dativ im Satz",
+      "type": "multiple_choice",
+      "question": "In welchem Fall steht 'dem Kind'? — 'Ich gebe dem Kind einen Apfel.'",
+      "options": ["Nominativ", "Genitiv", "Dativ", "Akkusativ"],
+      "correctAnswer": "Dativ",
+      "explanation": "Frage: 'Wem gebe ich den Apfel?' — 'dem Kind' → Dativ. 'einen Apfel' (was?) ist Akkusativ. [English: Indirect object = dative.]",
+      "hints": ["Indirektes Objekt = Dativ."]
+    },
+    {
+      "id": "german-l2-q8",
+      "topic": "Präposition mit Genitiv",
+      "type": "multiple_choice",
+      "question": "Ergänze: 'Wegen ___ Regens bleiben wir zuhause.'",
+      "options": ["der", "dem", "des", "den"],
+      "correctAnswer": "des",
+      "explanation": "Nach 'wegen' folgt der Genitiv. Maskulinum Genitiv: 'des Regens'. [English: 'wegen' requires genitive.]",
+      "hints": ["'wegen' verlangt den 2. Fall."]
+    },
+    {
+      "id": "german-l2-q9",
+      "topic": "Dativ Femininum",
+      "type": "multiple_choice",
+      "question": "Ergänze im Dativ: 'Ich gebe ___ Frau ein Buch.'",
+      "options": ["die", "der", "den", "dem"],
+      "correctAnswer": "der",
+      "explanation": "Femininum Dativ: aus 'die' wird 'der'. Also 'der Frau'. [English: Feminine dative = der.]",
+      "hints": ["Feminin im Dativ ändert sich zu 'der'."]
+    },
+    {
+      "id": "german-l2-q10",
+      "topic": "Nominativ im Satz",
+      "type": "multiple_choice",
+      "question": "Was ist im Nominativ? — 'Das Auto des Nachbarn steht im Hof.'",
+      "options": ["Das Auto", "des Nachbarn", "im Hof", "steht"],
+      "correctAnswer": "Das Auto",
+      "explanation": "Das Subjekt des Satzes ('wer/was steht?') ist 'Das Auto' — Nominativ. 'des Nachbarn' ist Genitiv, 'im Hof' eine adverbiale Bestimmung. [English: Subject = 'Das Auto' in nominative.]",
+      "hints": ["Wer oder was steht im Hof?"]
+    }
+  ]
+}
