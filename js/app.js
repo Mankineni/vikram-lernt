@@ -57,18 +57,18 @@
 
     wireGlobalEvents();
 
-    // If the user refreshed mid-round, resume instead of showing the
-    // dashboard. The session is dropped after 24h (handled in storage.js).
-    if (global.VikramQuiz && global.VikramQuiz.hasActiveSession()) {
-      resumePendingQuiz();
-    } else {
-      routeFromHash();
-    }
+    // Clean up any leftover finalized session before the first render —
+    // the round is already saved to progress, the session key is just a
+    // stale marker.
+    const pending = global.VikramStorage.getSession();
+    if (pending && pending.finalized) global.VikramStorage.clearSession();
 
+    routeFromHash();
     updateStreakDisplay();
   }
 
-  function resumePendingQuiz() {
+  function resumeQuiz() {
+    closeDrawer();
     mainEl.innerHTML = `<div id="quiz-root" class="quiz-root"></div>`;
     const container = document.getElementById('quiz-root');
     const resumed = global.VikramQuiz.resume({
@@ -77,7 +77,7 @@
     });
     if (!resumed) {
       global.VikramStorage.clearSession();
-      routeFromHash();
+      renderHome();
     }
   }
 
@@ -162,27 +162,41 @@
   function renderHome() {
     const mathP   = global.VikramStorage.getProgress('math');
     const germanP = global.VikramStorage.getProgress('german');
+    const session = getResumableSession();
 
     mainEl.innerHTML = `
       <section class="dashboard" aria-labelledby="dashboard-title">
         <h2 id="dashboard-title" class="section-title">Heute üben</h2>
         <p class="section-subtitle">Eine Aufgabe pro Fach. Los geht's!</p>
-        ${levelCardHtml('math',   mathP)}
-        ${levelCardHtml('german', germanP)}
+        ${levelCardHtml('math',   mathP,   session)}
+        ${levelCardHtml('german', germanP, session)}
       </section>
     `;
 
-    mainEl.querySelectorAll('[data-practice]').forEach(btn => {
+    mainEl.querySelectorAll('[data-action="start"]').forEach(btn => {
       btn.addEventListener('click', (e) => {
         e.preventDefault();
-        startQuiz(btn.dataset.practice);
+        startQuiz(btn.dataset.subject);
+      });
+    });
+    mainEl.querySelectorAll('[data-action="resume"]').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        resumeQuiz();
       });
     });
 
     updateStreakDisplay();
   }
 
-  function levelCardHtml(subject, progress) {
+  function getResumableSession() {
+    const s = global.VikramStorage.getSession();
+    if (!s || !Array.isArray(s.questions) || s.questions.length === 0) return null;
+    if (s.finalized) return null;   // round is done, nothing to resume
+    return s;
+  }
+
+  function levelCardHtml(subject, progress, pendingSession) {
     const emoji     = subject === 'math' ? '📐' : '📖';
     const title     = subject === 'math' ? 'Mathe' : 'Deutsch';
     const level     = progress.currentLevel;
@@ -190,14 +204,38 @@
     const stats     = lastLevelStats(progress);
     const pct       = stats.score != null ? Math.round((stats.score / 10) * 100) : 0;
 
+    const hasPendingHere = pendingSession && pendingSession.subject === subject;
+
     let meta;
-    if (stats.score != null) {
-      meta = `${stats.score} von 10 beim letzten Versuch`;
+    if (hasPendingHere) {
+      const total = pendingSession.questions.length;
+      const pos   = Math.min((pendingSession.index || 0) + 1, total);
+      meta = `Angefangen: Frage ${pos} von ${total} auf Level ${pendingSession.level}`;
+    } else if (stats.score != null) {
+      meta = `Letzter Versuch: ${stats.score} von 10`;
     } else {
       meta = level === 0
         ? 'Noch nicht gestartet — los geht\u2019s!'
         : 'Bereit für eine neue Runde.';
     }
+
+    const buttons = hasPendingHere
+      ? `
+        <button class="btn btn--block btn--${subject}" type="button"
+                data-action="resume" data-subject="${subject}">
+          ▶ Weitermachen
+        </button>
+        <button class="btn btn--block btn--ghost" type="button"
+                data-action="start" data-subject="${subject}">
+          ↻ Neu starten
+        </button>
+      `
+      : `
+        <button class="btn btn--block btn--${subject}" type="button"
+                data-action="start" data-subject="${subject}">
+          Starten
+        </button>
+      `;
 
     return `
       <article class="levelcard levelcard--${subject}" aria-labelledby="${subject}-card-title">
@@ -216,9 +254,9 @@
           <div class="progress__bar" style="width: ${pct}%"></div>
         </div>
         <p class="levelcard__meta">${meta}</p>
-        <button class="btn btn--block btn--${subject}" type="button" data-practice="${subject}">
-          Heute üben
-        </button>
+        <div class="levelcard__actions">
+          ${buttons}
+        </div>
       </article>
     `;
   }
