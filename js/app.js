@@ -56,7 +56,35 @@
     if (!mainEl) return;
 
     wireGlobalEvents();
-    routeFromHash();
+
+    // If the user refreshed mid-round, resume instead of showing the
+    // dashboard. The session is dropped after 24h (handled in storage.js).
+    if (global.VikramQuiz && global.VikramQuiz.hasActiveSession()) {
+      resumePendingQuiz();
+    } else {
+      routeFromHash();
+    }
+
+    updateStreakDisplay();
+  }
+
+  function resumePendingQuiz() {
+    mainEl.innerHTML = `<div id="quiz-root" class="quiz-root"></div>`;
+    const container = document.getElementById('quiz-root');
+    const resumed = global.VikramQuiz.resume({
+      container,
+      onComplete: onQuizComplete,
+    });
+    if (!resumed) {
+      global.VikramStorage.clearSession();
+      routeFromHash();
+    }
+  }
+
+  function onQuizComplete() {
+    global.VikramStorage.clearSession();
+    if (global.location.hash) global.location.hash = '';
+    else renderHome();
     updateStreakDisplay();
   }
 
@@ -221,6 +249,8 @@
 
   async function startQuiz(subject) {
     closeDrawer();
+    // Starting a new round abandons any prior in-progress session.
+    global.VikramStorage.clearSession();
     mainEl.innerHTML = `<div id="quiz-root" class="quiz-root"></div>`;
     const container = document.getElementById('quiz-root');
 
@@ -228,11 +258,7 @@
       await global.VikramQuiz.start({
         subject,
         container,
-        onComplete: () => {
-          if (global.location.hash) global.location.hash = '';
-          else renderHome();
-          updateStreakDisplay();
-        },
+        onComplete: onQuizComplete,
       });
     } catch (err) {
       console.error('[app] quiz failed to start', err);

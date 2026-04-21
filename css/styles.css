@@ -484,6 +484,20 @@ a { color: inherit; }
   margin: 0;
 }
 
+.quiz__buttons {
+  display: flex;
+  gap: var(--s-2);
+  margin-top: var(--s-2);
+}
+.quiz__buttons .btn { flex: 1; min-height: var(--tap-min); }
+.quiz__buttons .btn--ghost { flex: 0 0 auto; min-width: 120px; }
+.quiz__summary-actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-2);
+  width: 100%;
+}
+
 .quiz__options {
   display: flex;
   flex-direction: column;
@@ -645,7 +659,6 @@ a { color: inherit; }
 .quiz--german .quiz__summary-bignum { color: var(--color-german); }
 .quiz__summary-pct { font-size: 15px; color: var(--color-text-muted); font-weight: 600; }
 .quiz__summary-message { font-size: 16px; line-height: 1.5; margin: 0; max-width: 32ch; }
-.quiz__summary-actions { width: 100%; }
 
 .quiz__error {
   padding: var(--s-5);

@@ -59,6 +59,7 @@
     history:        'vikram.history',
     streak:         'vikram.streak',
     settings:       'vikram.settings',
+    session:        'vikram.session',
   });
 
   const PROGRESS_KEY = { math: KEYS.progressMath, german: KEYS.progressGerman };
@@ -258,6 +259,34 @@
     }
   }
 
+  // --- in-progress quiz session ---------------------------------------
+
+  /**
+   * Return the saved in-progress quiz session, or null if none.
+   * Sessions older than 24h are considered stale and dropped.
+   * @returns {object|null}
+   */
+  function getSession() {
+    const s = readJson(KEYS.session, null);
+    if (!s) return null;
+    if (s.startedAt) {
+      const age = Date.now() - new Date(s.startedAt).getTime();
+      if (age > 24 * 60 * 60 * 1000) {
+        clearSession();
+        return null;
+      }
+    }
+    return s;
+  }
+
+  /** Persist the current in-progress quiz session. */
+  function saveSession(data) { return writeJson(KEYS.session, data); }
+
+  /** Remove the in-progress session (called on round completion or cancel). */
+  function clearSession() {
+    try { store.impl.removeItem(KEYS.session); } catch (_) { /* swallow */ }
+  }
+
   /**
    * Serialize every stored value into a plain object suitable for
    * JSON.stringify + download. Missing slots are filled with defaults so
@@ -288,5 +317,8 @@
     updateStreak,
     clearAll,
     exportData,
+    getSession,
+    saveSession,
+    clearSession,
   });
 })(typeof window !== 'undefined' ? window : globalThis);

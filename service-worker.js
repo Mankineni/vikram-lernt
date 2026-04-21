@@ -10,7 +10,7 @@
  * Bump CACHE_VERSION on every deploy to roll over the precache.
  */
 
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v2';
 const SHELL_CACHE   = `vl-shell-${CACHE_VERSION}`;
 const DATA_CACHE    = `vl-data-${CACHE_VERSION}`;
 
